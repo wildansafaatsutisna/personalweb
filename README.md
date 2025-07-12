@@ -16,10 +16,10 @@ Modern personal website for Wildan Safaat Sutisna (WSS) - A complete portfolio a
 
 ```
 WSS Web/
-├── index.php              # Main homepage
-├── portfolio.php          # Portfolio gallery page
-├── portfolio-detail.php   # Dynamic portfolio detail page
-├── 404.php               # Custom 404 error page
+├── index.html              # Main homepage
+├── portfolio.html          # Portfolio gallery page
+├── portfolio-detail.html   # Dynamic portfolio detail page
+├── 404.html               # Custom 404 error page
 ├── .htaccess              # Apache configuration
 ├── README.md              # Project documentation
 └── assets/
@@ -43,7 +43,7 @@ WSS Web/
 
 ## Pages Overview
 
-### Homepage (index.php)
+### Homepage (index.html)
 - Hero section with call-to-action
 - Services showcase
 - Portfolio preview with "View All" link
@@ -53,13 +53,13 @@ WSS Web/
 - Blog preview
 - Contact form
 
-### Portfolio Page (portfolio.php)
+### Portfolio Page (portfolio.html)
 - Project filtering (All, Web Design, Mobile Apps, Branding)
 - Project grid with hover effects
 - Pagination support
 - Call-to-action section
 
-### Portfolio Detail Page (portfolio-detail.php)
+### Portfolio Detail Page (portfolio-detail.html)
 - Dynamic content loading based on URL parameters
 - Project hero with image and CTA buttons
 - Image gallery with responsive grid
@@ -98,7 +98,7 @@ The website supports both English and Indonesian languages with a convenient tog
 
 1. Clone or download the project files
 2. Serve the files using any web server (Apache, Nginx, or Python's built-in server)
-3. Open index.php in your browser
+3. Open index.html in your browser
 
 ### Local Development
 
@@ -124,8 +124,8 @@ php -S localhost:8000
 
 ### Adding New Projects
 1. Add project images to `assets/img/portfolio/`
-2. Update the projects array in `portfolio-detail.php`
-3. Add project thumbnail to `portfolio.php`
+2. Update the projects array in `portfolio-detail.html`
+3. Add project thumbnail to `portfolio.html`
 
 ### Language Updates
 1. Modify the `translations` object in each HTML file
@@ -152,8 +152,8 @@ For questions or support, please contact Wildan Safaat Sutisna through the conta
 
 ```
 WSS Web/
-├── index.php              # Main homepage
-├── 404.php               # Custom 404 error page
+├── index.html              # Main homepage
+├── 404.html               # Custom 404 error page
 ├── .htaccess              # Apache configuration
 └── assets/
     ├── css/
@@ -195,7 +195,7 @@ Add your images to the `assets/img/` folder:
 - `client1.jpg`, `client2.jpg`, `client3.jpg` - Client avatars
 
 ### 2. Content Customization
-Update the following in `index.php`:
+Update the following in `index.html`:
 - **Personal Information**: Name, title, bio, contact details
 - **Services**: Modify service descriptions
 - **Portfolio**: Update project titles, descriptions, and links
@@ -212,7 +212,7 @@ Modify `assets/css/style.css` to:
 - Add custom animations
 
 ### 4. Local Development
-- Open `index.php` in your browser
+- Open `index.html` in your browser
 - Use a local server for testing (recommended)
 - Validate responsive design on different screen sizes
 
