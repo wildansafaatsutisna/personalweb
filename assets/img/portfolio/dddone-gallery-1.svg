@@ -1,0 +1,79 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dddGal1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b"/>
+      <stop offset="100%" style="stop-color:#ffa726"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#dddGal1)"/>
+  
+  <!-- Task management interface -->
+  <rect x="100" y="100" width="600" height="400" fill="#ffffff" rx="15"/>
+  
+  <!-- Header -->
+  <rect x="100" y="100" width="600" height="60" fill="#ff6b6b" rx="15"/>
+  <rect x="100" y="140" width="600" height="20" fill="#ff6b6b"/>
+  
+  <text x="400" y="140" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold">DDDone - Task Board</text>
+  
+  <!-- Kanban columns -->
+  <rect x="120" y="180" width="160" height="300" fill="#f8f9fa" stroke="#dee2e6"/>
+  <rect x="120" y="180" width="160" height="30" fill="#6c757d"/>
+  <text x="200" y="200" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">To Do</text>
+  
+  <rect x="300" y="180" width="160" height="300" fill="#f8f9fa" stroke="#dee2e6"/>
+  <rect x="300" y="180" width="160" height="30" fill="#ffc107"/>
+  <text x="380" y="200" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">In Progress</text>
+  
+  <rect x="480" y="180" width="160" height="300" fill="#f8f9fa" stroke="#dee2e6"/>
+  <rect x="480" y="180" width="160" height="30" fill="#28a745"/>
+  <text x="560" y="200" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Done</text>
+  
+  <!-- Task cards in To Do -->
+  <rect x="130" y="230" width="140" height="60" fill="#ffffff" stroke="#e94560" stroke-width="2"/>
+  <text x="200" y="250" text-anchor="middle" fill="#495057" font-family="Arial, sans-serif" font-size="11" font-weight="bold">UI Design</text>
+  <text x="200" y="265" text-anchor="middle" fill="#6c757d" font-family="Arial, sans-serif" font-size="9">High Priority</text>
+  <circle cx="150" cy="275" r="6" fill="#e94560"/>
+  <text x="200" y="280" text-anchor="middle" fill="#6c757d" font-family="Arial, sans-serif" font-size="9">Due: Today</text>
+  
+  <rect x="130" y="310" width="140" height="60" fill="#ffffff" stroke="#6c757d" stroke-width="2"/>
+  <text x="200" y="330" text-anchor="middle" fill="#495057" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Code Review</text>
+  <text x="200" y="345" text-anchor="middle" fill="#6c757d" font-family="Arial, sans-serif" font-size="9">Medium Priority</text>
+  <circle cx="150" cy="355" r="6" fill="#ffc107"/>
+  
+  <!-- Task cards in Progress -->
+  <rect x="310" y="230" width="140" height="60" fill="#ffffff" stroke="#ffc107" stroke-width="2"/>
+  <text x="380" y="250" text-anchor="middle" fill="#495057" font-family="Arial, sans-serif" font-size="11" font-weight="bold">API Integration</text>
+  <text x="380" y="265" text-anchor="middle" fill="#6c757d" font-family="Arial, sans-serif" font-size="9">In Development</text>
+  <rect x="320" y="270" width="120" height="8" fill="#e9ecef"/>
+  <rect x="320" y="270" width="72" height="8" fill="#ffc107"/>
+  <text x="380" y="285" text-anchor="middle" fill="#6c757d" font-family="Arial, sans-serif" font-size="9">60% Complete</text>
+  
+  <!-- Task cards in Done -->
+  <rect x="490" y="230" width="140" height="60" fill="#ffffff" stroke="#28a745" stroke-width="2"/>
+  <text x="560" y="250" text-anchor="middle" fill="#495057" font-family="Arial, sans-serif" font-size="11" font-weight="bold">User Research</text>
+  <text x="560" y="265" text-anchor="middle" fill="#6c757d" font-family="Arial, sans-serif" font-size="9">Completed</text>
+  <circle cx="510" cy="275" r="6" fill="#28a745"/>
+  <text x="560" y="280" text-anchor="middle" fill="#28a745" font-family="Arial, sans-serif" font-size="9">✓ Done</text>
+  
+  <rect x="490" y="310" width="140" height="60" fill="#ffffff" stroke="#28a745" stroke-width="2"/>
+  <text x="560" y="330" text-anchor="middle" fill="#495057" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Wireframes</text>
+  <text x="560" y="345" text-anchor="middle" fill="#6c757d" font-family="Arial, sans-serif" font-size="9">Approved</text>
+  <circle cx="510" cy="355" r="6" fill="#28a745"/>
+  
+  <!-- Motion lines showing drag and drop -->
+  <path d="M 200 390 Q 290 380 380 390" stroke="#ffffff" stroke-width="3" fill="none" opacity="0.6" stroke-dasharray="5,5"/>
+  <circle cx="380" cy="390" r="5" fill="#ffffff" opacity="0.8"/>
+  
+  <!-- Stats at bottom -->
+  <rect x="120" y="520" width="560" height="40" fill="#f8f9fa"/>
+  <text x="150" y="540" fill="#495057" font-family="Arial, sans-serif" font-size="12">Total Tasks: 12</text>
+  <text x="300" y="540" fill="#495057" font-family="Arial, sans-serif" font-size="12">Completed: 8</text>
+  <text x="450" y="540" fill="#495057" font-family="Arial, sans-serif" font-size="12">In Progress: 3</text>
+  <text x="600" y="540" fill="#495057" font-family="Arial, sans-serif" font-size="12">Pending: 1</text>
+  
+  <!-- Text -->
+  <text x="400" y="80" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold">DDDone Gallery 1 - Task Management</text>
+</svg>

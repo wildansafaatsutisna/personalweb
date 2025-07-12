@@ -1,0 +1,80 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="workBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa"/>
+      <stop offset="100%" style="stop-color:#e9ecef"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#workBg)"/>
+  
+  <!-- Desk -->
+  <rect x="50" y="400" width="700" height="150" fill="#8b4513"/>
+  <rect x="60" y="410" width="680" height="10" fill="#a0522d"/>
+  
+  <!-- Monitor -->
+  <rect x="250" y="200" width="300" height="200" rx="10" fill="#2c3e50"/>
+  <rect x="260" y="210" width="280" height="180" fill="url(#screenGrad)"/>
+  
+  <!-- Monitor stand -->
+  <rect x="380" y="400" width="40" height="30" fill="#2c3e50"/>
+  <rect x="360" y="430" width="80" height="10" fill="#2c3e50"/>
+  
+  <!-- Screen content - Work Media Interface -->
+  <rect x="270" y="220" width="260" height="40" fill="#667eea"/>
+  <text x="400" y="245" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Work Media</text>
+  
+  <!-- Interface elements -->
+  <rect x="280" y="280" width="240" height="20" fill="#e9ecef"/>
+  <rect x="280" y="310" width="240" height="20" fill="#e9ecef"/>
+  <rect x="280" y="340" width="240" height="20" fill="#e9ecef"/>
+  
+  <!-- Sidebar -->
+  <rect x="270" y="270" width="60" height="100" fill="#f8f9fa"/>
+  <circle cx="300" cy="290" r="8" fill="#28a745"/>
+  <circle cx="300" cy="320" r="8" fill="#ffc107"/>
+  <circle cx="300" cy="350" r="8" fill="#e94560"/>
+  
+  <!-- Laptop -->
+  <rect x="450" y="350" width="200" height="120" rx="5" fill="#2c3e50"/>
+  <rect x="460" y="360" width="180" height="100" fill="#34495e"/>
+  <rect x="470" y="370" width="160" height="80" fill="url(#screenGrad)"/>
+  
+  <!-- Laptop content -->
+  <rect x="480" y="380" width="140" height="10" fill="#667eea"/>
+  <rect x="480" y="400" width="100" height="8" fill="#e9ecef"/>
+  <rect x="480" y="415" width="120" height="8" fill="#e9ecef"/>
+  <rect x="480" y="430" width="80" height="8" fill="#e9ecef"/>
+  
+  <!-- Coffee cup -->
+  <ellipse cx="180" cy="430" rx="25" ry="15" fill="#8b4513"/>
+  <ellipse cx="180" cy="420" rx="20" ry="10" fill="#d2691e"/>
+  <rect x="200" y="415" width="15" height="5" rx="2" fill="#8b4513"/>
+  
+  <!-- Notebook -->
+  <rect x="580" y="380" width="80" height="100" fill="#ffffff"/>
+  <line x1="590" y1="390" x2="650" y2="390" stroke="#dee2e6" stroke-width="1"/>
+  <line x1="590" y1="400" x2="650" y2="400" stroke="#dee2e6" stroke-width="1"/>
+  <line x1="590" y1="410" x2="650" y2="410" stroke="#dee2e6" stroke-width="1"/>
+  <line x1="590" y1="420" x2="650" y2="420" stroke="#dee2e6" stroke-width="1"/>
+  
+  <!-- Pen -->
+  <rect x="665" y="390" width="3" height="40" fill="#1f4e79"/>
+  <rect x="665" y="385" width="3" height="5" fill="#e94560"/>
+  
+  <!-- Decorative plants -->
+  <ellipse cx="120" cy="410" rx="15" ry="30" fill="#28a745"/>
+  <rect x="110" y="430" width="20" height="15" fill="#8b4513"/>
+  
+  <ellipse cx="720" cy="400" rx="12" ry="25" fill="#228B22"/>
+  <rect x="712" y="420" width="16" height="12" fill="#8b4513"/>
+  
+  <!-- Brand Text -->
+  <text x="400" y="150" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="32" font-weight="bold">Work Media</text>
+  <text x="400" y="180" text-anchor="middle" fill="#f8f9fa" font-family="Arial, sans-serif" font-size="16">Collaborative Creative Platform</text>
+</svg>

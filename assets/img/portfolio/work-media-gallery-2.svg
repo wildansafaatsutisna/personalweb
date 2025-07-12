@@ -1,0 +1,75 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="workGal2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#workGal2)"/>
+  
+  <!-- Team collaboration view -->
+  <rect x="50" y="80" width="700" height="440" fill="#ffffff" rx="15"/>
+  
+  <!-- Video call interface -->
+  <rect x="70" y="100" width="660" height="50" fill="#667eea"/>
+  <text x="400" y="130" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Work Media - Team Meeting</text>
+  
+  <!-- Participant grid -->
+  <rect x="90" y="170" width="150" height="120" fill="#f8f9fa" stroke="#dee2e6"/>
+  <circle cx="165" cy="200" r="20" fill="#28a745"/>
+  <text x="165" y="240" text-anchor="middle" fill="#495057" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Sarah</text>
+  <text x="165" y="255" text-anchor="middle" fill="#6c757d" font-family="Arial, sans-serif" font-size="10">Designer</text>
+  
+  <rect x="260" y="170" width="150" height="120" fill="#f8f9fa" stroke="#dee2e6"/>
+  <circle cx="335" cy="200" r="20" fill="#ffc107"/>
+  <text x="335" y="240" text-anchor="middle" fill="#495057" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Mike</text>
+  <text x="335" y="255" text-anchor="middle" fill="#6c757d" font-family="Arial, sans-serif" font-size="10">Developer</text>
+  
+  <rect x="430" y="170" width="150" height="120" fill="#f8f9fa" stroke="#dee2e6"/>
+  <circle cx="505" cy="200" r="20" fill="#e94560"/>
+  <text x="505" y="240" text-anchor="middle" fill="#495057" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Alex</text>
+  <text x="505" y="255" text-anchor="middle" fill="#6c757d" font-family="Arial, sans-serif" font-size="10">Manager</text>
+  
+  <rect x="600" y="170" width="120" height="120" fill="#f8f9fa" stroke="#dee2e6"/>
+  <circle cx="660" cy="200" r="20" fill="#0f3460"/>
+  <text x="660" y="240" text-anchor="middle" fill="#495057" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Lisa</text>
+  <text x="660" y="255" text-anchor="middle" fill="#6c757d" font-family="Arial, sans-serif" font-size="10">Writer</text>
+  
+  <!-- Shared screen area -->
+  <rect x="90" y="310" width="630" height="180" fill="#f8f9fa" stroke="#667eea" stroke-width="3"/>
+  <text x="405" y="335" text-anchor="middle" fill="#667eea" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Shared Design Document</text>
+  
+  <!-- Document content -->
+  <rect x="110" y="350" width="590" height="20" fill="#e9ecef"/>
+  <rect x="110" y="380" width="590" height="20" fill="#e9ecef"/>
+  <rect x="110" y="410" width="400" height="20" fill="#e9ecef"/>
+  <rect x="110" y="440" width="500" height="20" fill="#e9ecef"/>
+  
+  <!-- Comments -->
+  <circle cx="520" cy="360" r="8" fill="#28a745"/>
+  <text x="540" y="365" fill="#495057" font-family="Arial, sans-serif" font-size="10">Sarah: Looks great!</text>
+  
+  <circle cx="520" cy="390" r="8" fill="#ffc107"/>
+  <text x="540" y="395" fill="#495057" font-family="Arial, sans-serif" font-size="10">Mike: Can we adjust colors?</text>
+  
+  <!-- Control bar -->
+  <rect x="70" y="500" width="660" height="40" fill="#2c3e50"/>
+  
+  <!-- Control buttons -->
+  <circle cx="120" cy="520" r="12" fill="#e94560"/>
+  <text x="120" y="525" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">🎤</text>
+  
+  <circle cx="160" cy="520" r="12" fill="#28a745"/>
+  <text x="160" y="525" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">📹</text>
+  
+  <circle cx="200" cy="520" r="12" fill="#667eea"/>
+  <text x="200" y="525" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">💬</text>
+  
+  <circle cx="680" cy="520" r="12" fill="#dc3545"/>
+  <text x="680" y="525" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">📞</text>
+  
+  <!-- Text -->
+  <text x="400" y="60" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Work Media Gallery 2 - Team Collaboration</text>
+</svg>

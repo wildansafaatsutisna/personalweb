@@ -1,0 +1,42 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="profileGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1b4b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#312e81;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="150" cy="150" r="150" fill="url(#bgGradient)"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="80" cy="80" r="20" fill="#f59e0b" opacity="0.3"/>
+  <circle cx="220" cy="70" r="15" fill="#6366f1" opacity="0.4"/>
+  <circle cx="250" cy="200" r="25" fill="#8b5cf6" opacity="0.3"/>
+  
+  <!-- Profile silhouette -->
+  <circle cx="150" cy="120" r="40" fill="url(#profileGradient)"/>
+  <path d="M150 160 C120 160, 100 180, 100 200 L100 250 C100 260, 110 270, 120 270 L180 270 C190 270, 200 260, 200 250 L200 200 C200 180, 180 160, 150 160 Z" fill="url(#profileGradient)"/>
+  
+  <!-- Decorative tech icons -->
+  <g transform="translate(50, 220)" fill="#ffffff" opacity="0.6">
+    <rect width="20" height="20" rx="3"/>
+    <rect x="3" y="3" width="14" height="8" fill="#6366f1"/>
+    <rect x="5" y="13" width="4" height="2"/>
+    <rect x="11" y="13" width="4" height="2"/>
+  </g>
+  
+  <g transform="translate(230, 120)" fill="#ffffff" opacity="0.6">
+    <circle cx="10" cy="10" r="8"/>
+    <circle cx="10" cy="10" r="4" fill="#8b5cf6"/>
+    <circle cx="10" cy="10" r="2" fill="#ffffff"/>
+  </g>
+  
+  <!-- Code brackets -->
+  <text x="60" y="180" font-family="monospace" font-size="24" fill="#f59e0b" opacity="0.7">&lt;/&gt;</text>
+  <text x="210" y="250" font-family="monospace" font-size="20" fill="#6366f1" opacity="0.7">{}</text>
+</svg>

@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Detail - Wildan Safaat Sutisna</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/portfolio.css">
+    <link rel="stylesheet" href="assets/css/portfolio-detail.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.php">WSS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php" data-lang="home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php#about" data-lang="about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php#services" data-lang="services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="portfolio.php" data-lang="portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php#testimonials" data-lang="testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php#blog" data-lang="blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php#contact" data-lang="contact">Contact</a>
+                    </li>
+                    <li class="nav-item ms-2 d-flex align-items-center">
+                        <button id="language-toggle" class="btn btn-sm btn-outline-light language-btn">
+                            <span class="lang-text">EN</span>
+                            <i class="bi bi-globe ms-1"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Project Header -->
+    <section class="project-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="project-breadcrumb">
+                        <a href="index.php" data-lang="home">Home</a>
+                        <i class="bi bi-chevron-right"></i>
+                        <a href="portfolio.php" data-lang="portfolio">Portfolio</a>
+                        <i class="bi bi-chevron-right"></i>
+                        <span id="project-name">KeyBoard Project</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Hero -->
+    <section class="project-hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="project-title" id="project-title">KeyBoard Project</h1>
+                    <div class="project-category">
+                        <span class="badge" id="project-category">Branding</span>
+                    </div>
+                    <div class="project-description">
+                        <p id="project-description">
+                            KeyBoard is a premium mechanical keyboard brand. The project involved creating
+                            a brand identity that reflects the premium quality and modern aesthetic of the product.
+                            The challenge was to create a minimalistic yet distinctive brand that would appeal to
+                            both gaming enthusiasts and professionals.
+                        </p>
+                    </div>
+                    <div class="project-meta">
+                        <div class="meta-item">
+                            <h6 data-lang="project-client">Client</h6>
+                            <p id="project-client">KeyBoard Inc.</p>
+                        </div>
+                        <div class="meta-item">
+                            <h6 data-lang="project-date">Date</h6>
+                            <p id="project-date">June 2023</p>
+                        </div>
+                        <div class="meta-item">
+                            <h6 data-lang="project-services">Services</h6>
+                            <p id="project-services">Brand Identity, Logo Design, Packaging</p>
+                        </div>
+                    </div>
+                    <div class="project-links mt-4">
+                        <a href="#" class="btn btn-primary me-3" data-lang="live-preview">Live Preview</a>
+                        <a href="#" class="btn btn-outline-primary" data-lang="case-study">Case Study</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="project-main-image">
+                        <img src="assets/img/portfolio/keyboard-main.svg" alt="KeyBoard Project" class="img-fluid rounded" id="project-main-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Gallery -->
+    <section class="project-gallery">
+        <div class="container">
+            <h2 class="section-title text-center mb-5" data-lang="project-gallery">Project Gallery</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="gallery-item">
+                        <img src="assets/img/portfolio/keyboard-gallery-1.svg" alt="KeyBoard Gallery 1" class="img-fluid rounded">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="gallery-item">
+                        <img src="assets/img/portfolio/keyboard-gallery-2.svg" alt="KeyBoard Gallery 2" class="img-fluid rounded">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="gallery-item">
+                        <img src="assets/img/portfolio/keyboard-gallery-3.svg" alt="KeyBoard Gallery 3" class="img-fluid rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Process -->
+    <section class="project-process">
+        <div class="container">
+            <h2 class="section-title text-center mb-5" data-lang="design-process">Design Process</h2>
+            <div class="process-timeline">
+                <div class="process-item">
+                    <div class="process-number">01</div>
+                    <h3 class="process-title" data-lang="research-phase">Research & Discovery</h3>
+                    <p class="process-description">
+                        We conducted extensive research on the mechanical keyboard market, target audience,
+                        and competitors to identify opportunities and inform our design decisions.
+                    </p>
+                </div>
+                <div class="process-item">
+                    <div class="process-number">02</div>
+                    <h3 class="process-title" data-lang="concept-phase">Concept Development</h3>
+                    <p class="process-description">
+                        Based on our research, we developed several concept directions for the brand
+                        identity, focusing on minimalism, premium quality, and technical excellence.
+                    </p>
+                </div>
+                <div class="process-item">
+                    <div class="process-number">03</div>
+                    <h3 class="process-title" data-lang="design-phase">Design & Refinement</h3>
+                    <p class="process-description">
+                        After selecting a direction, we refined the design elements, including logo,
+                        color palette, typography, and visual language to create a cohesive identity.
+                    </p>
+                </div>
+                <div class="process-item">
+                    <div class="process-number">04</div>
+                    <h3 class="process-title" data-lang="implementation-phase">Implementation & Delivery</h3>
+                    <p class="process-description">
+                        We created comprehensive brand guidelines and applied the new identity to
+                        various touchpoints, including packaging, website, and marketing materials.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Next Project -->
+    <section class="next-project">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h6 class="next-label" data-lang="next-project">Next Project</h6>
+                    <h2 class="next-title">SOFA</h2>
+                    <p class="next-description">
+                        A modern furniture brand with a focus on comfort and style.
+                    </p>
+                    <a href="portfolio-detail.php" class="btn btn-outline-light" data-lang="view-project">View Project</a>
+                </div>
+                <div class="col-md-6">
+                    <div class="next-image">
+                        <img src="assets/img/portfolio/sofa-next.svg" alt="Next Project" class="img-fluid rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="portfolio-cta">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h2 class="cta-title" data-lang="cta-title-portfolio">
+                        Help To Build<br>
+                        <span>Your Dream Project</span>
+                    </h2>
+                    <p class="cta-description" data-lang="cta-description-portfolio">
+                        A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.
+                    </p>
+                    <a href="index.php#contact" class="btn btn-primary btn-lg" data-lang="contact-now">CONTACT NOW</a>
+                </div>
+                <div class="col-lg-4">
+                    <div class="cta-image">
+                        <img src="assets/img/cta-image.png" alt="Contact CTA" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h5 class="text-white mb-3">WSS</h5>
+                    <p class="text-white-50">Full Stack Developer passionate about creating amazing digital experiences.</p>
+                </div>
+                <div class="col-lg-2">
+                    <h6 class="text-white mb-3" data-lang="quick-links">Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="index.php" data-lang="home">Home</a></li>
+                        <li><a href="index.php#about" data-lang="about">About</a></li>
+                        <li><a href="index.php#services" data-lang="services">Services</a></li>
+                        <li><a href="portfolio.php" data-lang="portfolio">Portfolio</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h6 class="text-white mb-3" data-lang="footer-services">Services</h6>
+                    <ul class="footer-links">
+                        <li><a href="#" data-lang="web-design">Web Design</a></li>
+                        <li><a href="#" data-lang="development">Development</a></li>
+                        <li><a href="#" data-lang="mobile-apps">Mobile Apps</a></li>
+                        <li><a href="#" data-lang="consulting">Consulting</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h6 class="text-white mb-3" data-lang="contact">Contact</h6>
+                    <p class="text-white-50">wildan@example.com<br>+62 812 3456 7890</p>
+                    <div class="social-links mt-3">
+                        <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="bi bi-github"></i></a>
+                        <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4" style="border-color: rgba(255,255,255,0.1);">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="text-white-50 mb-0" data-lang="copyright">&copy; 2024 Wildan Safaat Sutisna. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <div class="footer-bottom-links">
+                        <a href="#" class="text-white-50">Terms of Use</a>
+                        <a href="#" class="text-white-50">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script>
+        // Navbar background on scroll
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Get URL parameters to load specific project data
+        function getUrlParameter(name) {
+            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+            const regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+            const results = regex.exec(location.search);
+            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+        }
+
+        // Project data object
+        const projectsData = {
+            'keyboard': {
+                name: 'KeyBoard Project',
+                category: 'Branding',
+                description: 'KeyBoard is a premium mechanical keyboard brand. The project involved creating a brand identity that reflects the premium quality and modern aesthetic of the product. The challenge was to create a minimalistic yet distinctive brand that would appeal to both gaming enthusiasts and professionals.',
+                client: 'KeyBoard Inc.',
+                date: 'June 2023',
+                services: 'Brand Identity, Logo Design, Packaging',
+                mainImage: 'assets/img/portfolio/keyboard-main.svg',
+                gallery: [
+                    'assets/img/portfolio/keyboard-gallery-1.svg',
+                    'assets/img/portfolio/keyboard-gallery-2.svg',
+                    'assets/img/portfolio/keyboard-gallery-3.svg'
+                ],
+                nextProject: {
+                    name: 'SOFA',
+                    description: 'A modern furniture brand with a focus on comfort and style.',
+                    image: 'assets/img/portfolio/sofa-next.svg',
+                    id: 'sofa'
+                }
+            },
+            'sofa': {
+                name: 'SOFA Project',
+                category: 'Design',
+                description: 'SOFA is a modern furniture brand focusing on minimalist design with maximum comfort. This project involved creating the entire brand identity, from logo design to marketing materials and product photography.',
+                client: 'SOFA Furniture Co.',
+                date: 'April 2023',
+                services: 'Brand Identity, Product Photography, Web Design',
+                mainImage: 'assets/img/portfolio/sofa-main.svg',
+                gallery: [
+                    'assets/img/portfolio/sofa-gallery-1.svg',
+                    'assets/img/portfolio/sofa-gallery-2.svg',
+                    'assets/img/portfolio/sofa-gallery-3.svg'
+                ],
+                nextProject: {
+                    name: 'Work Media',
+                    description: 'A collaborative platform for creative professionals.',
+                    image: 'assets/img/portfolio/work-media-next.svg',
+                    id: 'work-media'
+                }
+            },
+            'work-media': {
+                name: 'Work Media',
+                category: 'Illustration',
+                description: 'Work Media is a platform designed for creative professionals to collaborate on projects. The branding needed to be professional yet creative, appealing to designers, illustrators, and other creative professionals.',
+                client: 'Work Media LLC',
+                date: 'March 2023',
+                services: 'UI/UX Design, Illustration, Branding',
+                mainImage: 'assets/img/portfolio/work-media-main.svg',
+                gallery: [
+                    'assets/img/portfolio/work-media-gallery-1.svg',
+                    'assets/img/portfolio/work-media-gallery-2.svg',
+                    'assets/img/portfolio/work-media-gallery-3.svg'
+                ],
+                nextProject: {
+                    name: 'DDDone',
+                    description: 'A task management app with innovative motion design.',
+                    image: 'assets/img/portfolio/dddone-next.svg',
+                    id: 'dddone'
+                }
+            },
+            'dddone': {
+                name: 'DDDone',
+                category: 'Motion',
+                description: 'DDDone is a productivity app that needed a modern and dynamic identity. The focus was on creating smooth animations and transitions to enhance the user experience.',
+                client: 'DDDone Tech',
+                date: 'February 2023',
+                services: 'Motion Design, UI Animation, App Design',
+                mainImage: 'assets/img/portfolio/dddone-main.svg',
+                gallery: [
+                    'assets/img/portfolio/dddone-gallery-1.svg',
+                    'assets/img/portfolio/dddone-gallery-2.svg',
+                    'assets/img/portfolio/dddone-gallery-3.svg'
+                ],
+                nextProject: {
+                    name: 'HandP',
+                    description: 'An elegant brand identity for a premium clothing line.',
+                    image: 'assets/img/portfolio/handp-next.svg',
+                    id: 'handp'
+                }
+            },
+            'handp': {
+                name: 'HandP',
+                category: 'Branding',
+                description: 'HandP is a premium clothing brand that needed an elegant and sophisticated identity. The design approach focused on minimalism and timeless elegance.',
+                client: 'HandP Fashion',
+                date: 'January 2023',
+                services: 'Brand Identity, Packaging, Print Design',
+                mainImage: 'assets/img/portfolio/handp-main.svg',
+                gallery: [
+                    'assets/img/portfolio/handp-gallery-1.svg',
+                    'assets/img/portfolio/handp-gallery-2.svg',
+                    'assets/img/portfolio/handp-gallery-3.svg'
+                ],
+                nextProject: {
+                    name: 'KeyBoard',
+                    description: 'A premium mechanical keyboard brand with minimalist design.',
+                    image: 'assets/img/portfolio/keyboard-next.svg',
+                    id: 'keyboard'
+                }
+            }
+        };
+
+        // Function to load project data
+        function loadProjectData() {
+            // Get project ID from URL or default to 'keyboard'
+            const projectId = getUrlParameter('project') || 'keyboard';
+            const project = projectsData[projectId] || projectsData['keyboard'];
+            
+            // Update page title
+            document.title = `${project.name} - Wildan Safaat Sutisna`;
+            
+            // Update project details
+            document.getElementById('project-name').textContent = project.name;
+            document.getElementById('project-title').textContent = project.name;
+            document.getElementById('project-category').textContent = project.category;
+            document.getElementById('project-description').textContent = project.description;
+            document.getElementById('project-client').textContent = project.client;
+            document.getElementById('project-date').textContent = project.date;
+            document.getElementById('project-services').textContent = project.services;
+            document.getElementById('project-main-image').src = project.mainImage;
+            
+            // Update gallery images if they exist
+            const galleryItems = document.querySelectorAll('.gallery-item img');
+            if (galleryItems.length > 0 && project.gallery) {
+                for (let i = 0; i < Math.min(galleryItems.length, project.gallery.length); i++) {
+                    galleryItems[i].src = project.gallery[i];
+                    galleryItems[i].alt = `${project.name} Gallery ${i+1}`;
+                }
+            }
+            
+            // Update next project section
+            if (project.nextProject) {
+                const nextTitle = document.querySelector('.next-title');
+                const nextDesc = document.querySelector('.next-description');
+                const nextImage = document.querySelector('.next-image img');
+                const nextLink = document.querySelector('.next-project .btn');
+                
+                if (nextTitle) nextTitle.textContent = project.nextProject.name;
+                if (nextDesc) nextDesc.textContent = project.nextProject.description;
+                if (nextImage) nextImage.src = project.nextProject.image;
+                if (nextLink) nextLink.href = `portfolio-detail.php?project=${project.nextProject.id}`;
+            }
+        }
+        
+        // Load project data when DOM is fully loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            loadProjectData();
+        });
+
+        // Language Switcher from index.php
+        // Translations object
+        const translations = {
+            en: {
+                // Navigation
+                'home': 'Home',
+                'about': 'About',
+                'services': 'Services',
+                'portfolio': 'Portfolio',
+                'testimonials': 'Testimonials',
+                'blog': 'Blog',
+                'contact': 'Contact',
+                
+                // Portfolio Detail Page
+                'project-client': 'Client',
+                'project-date': 'Date',
+                'project-services': 'Services',
+                'live-preview': 'Live Preview',
+                'case-study': 'Case Study',
+                'project-gallery': 'Project Gallery',
+                'design-process': 'Design Process',
+                'research-phase': 'Research & Discovery',
+                'concept-phase': 'Concept Development',
+                'design-phase': 'Design & Refinement',
+                'implementation-phase': 'Implementation & Delivery',
+                'next-project': 'Next Project',
+                'view-project': 'View Project',
+                'cta-title-portfolio': 'Help To Build Your Dream Project',
+                'cta-description-portfolio': 'A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.',
+                'contact-now': 'CONTACT NOW',
+                
+                // Footer
+                'quick-links': 'Quick Links',
+                'footer-services': 'Services',
+                'web-design': 'Web Design',
+                'development': 'Development',
+                'mobile-apps': 'Mobile Apps',
+                'consulting': 'Consulting',
+                'copyright': '© 2024 Wildan Safaat Sutisna. All rights reserved.'
+            },
+            id: {
+                // Navigation
+                'home': 'Beranda',
+                'about': 'Tentang',
+                'services': 'Layanan',
+                'portfolio': 'Portofolio',
+                'testimonials': 'Testimoni',
+                'blog': 'Blog',
+                'contact': 'Kontak',
+                
+                // Portfolio Detail Page
+                'project-client': 'Klien',
+                'project-date': 'Tanggal',
+                'project-services': 'Layanan',
+                'live-preview': 'Pratinjau Langsung',
+                'case-study': 'Studi Kasus',
+                'project-gallery': 'Galeri Proyek',
+                'design-process': 'Proses Desain',
+                'research-phase': 'Penelitian & Penemuan',
+                'concept-phase': 'Pengembangan Konsep',
+                'design-phase': 'Desain & Penyempurnaan',
+                'implementation-phase': 'Implementasi & Pengiriman',
+                'next-project': 'Proyek Selanjutnya',
+                'view-project': 'Lihat Proyek',
+                'cta-title-portfolio': 'Bantuan Membangun Proyek Impian Anda',
+                'cta-description-portfolio': 'Agensi digital adalah bisnis yang Anda sewa untuk mengalihdayakan upaya pemasaran digital Anda, alih-alih menanganinya sendiri.',
+                'contact-now': 'HUBUNGI SEKARANG',
+                
+                // Footer
+                'quick-links': 'Tautan Cepat',
+                'footer-services': 'Layanan',
+                'web-design': 'Desain Web',
+                'development': 'Pengembangan',
+                'mobile-apps': 'Aplikasi Mobile',
+                'consulting': 'Konsultasi',
+                'copyright': '© 2024 Wildan Safaat Sutisna. Seluruh hak cipta dilindungi.'
+            }
+        };
+
+        // Initialize language from localStorage or default to English
+        let currentLang = localStorage.getItem('wssLang') || 'en';
+        
+        // Get the language toggle button
+        const langToggle = document.getElementById('language-toggle');
+        
+        // Function to update button text
+        function updateButtonText() {
+            const langText = langToggle.querySelector('.lang-text');
+            langText.textContent = currentLang.toUpperCase();
+        }
+        
+        // Function to update placeholders based on current language
+        function updatePlaceholders() {
+            const elements = document.querySelectorAll('[data-lang-placeholder]');
+            
+            elements.forEach(el => {
+                const key = el.getAttribute('data-lang-placeholder');
+                if (translations[currentLang][key]) {
+                    el.placeholder = translations[currentLang][key];
+                }
+            });
+        }
+        
+        // Function to update all text content based on current language
+        function updateContent() {
+            const elements = document.querySelectorAll('[data-lang]');
+            
+            elements.forEach(el => {
+                const key = el.getAttribute('data-lang');
+                if (translations[currentLang][key]) {
+                    el.textContent = translations[currentLang][key];
+                }
+            });
+            
+            // Update placeholders
+            updatePlaceholders();
+            
+            // Update button text
+            updateButtonText();
+            
+            // Save preference to localStorage
+            localStorage.setItem('wssLang', currentLang);
+        }
+        
+        // Toggle language when button is clicked
+        langToggle.addEventListener('click', () => {
+            currentLang = currentLang === 'en' ? 'id' : 'en';
+            
+            // Add animation effect to button
+            langToggle.classList.add('language-btn-active');
+            setTimeout(() => {
+                langToggle.classList.remove('language-btn-active');
+            }, 300);
+            
+            updateContent();
+        });
+        
+        // Initialize content with current language
+        document.addEventListener('DOMContentLoaded', () => {
+            updateButtonText();
+            updateContent();
+        });
+    </script>
+</body>
+</html>

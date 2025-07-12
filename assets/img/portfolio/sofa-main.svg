@@ -1,0 +1,60 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sofaBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa"/>
+      <stop offset="100%" style="stop-color:#e9ecef"/>
+    </linearGradient>
+    <linearGradient id="sofaMain" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#495057"/>
+      <stop offset="100%" style="stop-color:#6c757d"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#sofaBg)"/>
+  
+  <!-- Room wall -->
+  <rect x="0" y="0" width="800" height="400" fill="#ffffff"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="400" width="800" height="200" fill="#f1f3f4"/>
+  
+  <!-- Main Sofa -->
+  <ellipse cx="400" cy="380" rx="320" ry="140" fill="url(#sofaMain)"/>
+  
+  <!-- Sofa backrest -->
+  <path d="M 120 280 Q 400 200 680 280 L 680 350 Q 400 320 120 350 Z" fill="url(#sofaMain)"/>
+  
+  <!-- Seat cushions -->
+  <ellipse cx="280" cy="360" rx="90" ry="50" fill="#adb5bd"/>
+  <ellipse cx="520" cy="360" rx="90" ry="50" fill="#adb5bd"/>
+  
+  <!-- Armrests -->
+  <ellipse cx="120" cy="320" rx="70" ry="90" fill="url(#sofaMain)"/>
+  <ellipse cx="680" cy="320" rx="70" ry="90" fill="url(#sofaMain)"/>
+  
+  <!-- Decorative pillows -->
+  <ellipse cx="250" cy="300" rx="35" ry="30" fill="#e94560"/>
+  <ellipse cx="550" cy="300" rx="35" ry="30" fill="#0f3460"/>
+  <ellipse cx="400" cy="290" rx="40" ry="35" fill="#28a745"/>
+  
+  <!-- Coffee table -->
+  <ellipse cx="400" cy="500" rx="120" ry="40" fill="#8b4513"/>
+  <rect x="320" y="480" width="160" height="20" fill="#a0522d"/>
+  
+  <!-- Coffee table legs -->
+  <rect x="340" y="500" width="15" height="30" fill="#654321"/>
+  <rect x="445" y="500" width="15" height="30" fill="#654321"/>
+  
+  <!-- Floor lamp -->
+  <rect x="650" y="450" width="8" height="120" fill="#2c3e50"/>
+  <ellipse cx="654" cy="440" rx="30" ry="15" fill="#ecf0f1"/>
+  <circle cx="654" cy="445" r="5" fill="#f39c12"/>
+  
+  <!-- Wall art -->
+  <rect x="100" y="100" width="120" height="80" fill="#34495e"/>
+  <rect x="110" y="110" width="100" height="60" fill="#3498db"/>
+  
+  <!-- Brand Text -->
+  <text x="400" y="80" text-anchor="middle" fill="#495057" font-family="Arial, sans-serif" font-size="36" font-weight="bold">SOFA Main</text>
+</svg>

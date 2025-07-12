@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildan Safaat Sutisna - Full Stack Developer</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">WSS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home" data-lang="home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" data-lang="about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services" data-lang="services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.php" data-lang="portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials" data-lang="testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog" data-lang="blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" data-lang="contact">Contact</a>
+                    </li>
+                    <li class="nav-item ms-2 d-flex align-items-center">
+                        <button id="language-toggle" class="btn btn-sm btn-outline-light language-btn">
+                            <span class="lang-text">EN</span>
+                            <i class="bi bi-globe ms-1"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-bg">
+            <div class="hero-particles"></div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            <span data-lang="hero-title-1">The Simple,</span><br>
+                            <span class="gradient-text" data-lang="hero-title-2">Clean Design</span>
+                        </h1>
+                        <p class="hero-description" data-lang="hero-description">
+                            I'm Wildan Safaat Sutisna, a passionate Full Stack Developer creating amazing digital experiences with modern technologies.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#portfolio" class="btn btn-primary btn-lg me-3" data-lang="view-work">View My Work</a>
+                            <a href="#contact" class="btn btn-outline-light btn-lg" data-lang="get-in-touch">Get In Touch</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-visual">
+                        <div class="profile-card">
+                            <div class="profile-image">
+                                <img src="assets/img/profile.svg" alt="Wildan Safaat Sutisna" class="img-fluid">
+                            </div>
+                            <div class="profile-info">
+                                <h3 data-lang="profile-title">Wildan Safaat</h3>
+                                <p data-lang="profile-desc">Full Stack Developer</p>
+                            </div>
+                        </div>
+                        <div class="floating-elements">
+                            <div class="floating-icon icon-1">⚡</div>
+                            <div class="floating-icon icon-2">🎯</div>
+                            <div class="floating-icon icon-3">💡</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <p class="section-subtitle text-uppercase" data-lang="services-subtitle">WHAT I DO</p>
+                    <h2 class="section-title" data-lang="services-title">Services I Provide</h2>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-code-slash"></i>
+                        </div>
+                        <h3 data-lang="web-design-title">Web Design</h3>
+                        <p data-lang="web-design-desc">Creating beautiful, responsive, and user-friendly interfaces that elevate your brand.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-laptop"></i>
+                        </div>
+                        <h3 data-lang="dev-title">Development</h3>
+                        <p data-lang="dev-desc">Building robust and scalable web applications with modern technologies and best practices.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <p class="section-subtitle text-uppercase" data-lang="portfolio-subtitle">MY WORK</p>
+                    <h2 class="section-title text-white" data-lang="portfolio-title">Recent Projects</h2>
+                    <a href="portfolio.php" class="btn btn-outline-light mt-3" data-lang="view-all-projects">View All Projects</a>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="assets/img/project1.svg" alt="Project 1" class="img-fluid">
+                            <div class="portfolio-overlay">
+                                <h4>E-Commerce Platform</h4>
+                                <p>React & Node.js</p>
+                                <a href="portfolio-detail.php?project=keyboard" class="btn btn-light btn-sm" data-lang="view-project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="assets/img/project2.svg" alt="Project 2" class="img-fluid">
+                            <div class="portfolio-overlay">
+                                <h4>Mobile App UI</h4>
+                                <p>Flutter & Firebase</p>
+                                <a href="portfolio-detail.php?project=sofa" class="btn btn-light btn-sm" data-lang="view-project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="assets/img/project3.svg" alt="Project 3" class="img-fluid">
+                            <div class="portfolio-overlay">
+                                <h4>Web & Mobile</h4>
+                                <p>Full Stack Solution</p>
+                                <a href="portfolio-detail.php?project=work-media" class="btn btn-light btn-sm" data-lang="view-project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-image">
+                        <img src="assets/img/about.svg" alt="About Wildan" class="img-fluid rounded">
+                        <div class="experience-badge">
+                            <span class="experience-number">5+</span>
+                            <span class="experience-text">Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <p class="section-subtitle text-uppercase" data-lang="about-subtitle">ABOUT ME</p>
+                        <h2 class="section-title" data-lang="about-title">Professional Web Developer & Designer</h2>
+                        <p class="about-description" data-lang="about-desc">
+                            With over 5 years of experience in web development, I specialize in creating beautiful, functional websites and applications. I combine technical expertise with creative problem-solving to deliver solutions that meet client needs.
+                        </p>
+                        <p class="about-description" data-lang="about-desc-2">
+                            I'm passionate about clean code, user experience, and staying current with emerging technologies. Let's work together to bring your digital vision to life.
+                        </p>
+                        <div class="stats-row">
+                            <div class="stat-item">
+                                <h3>45+</h3>
+                                <p>Projects Completed</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3>25+</h3>
+                                <p>Happy Clients</p>
+                            </div>
+                        </div>
+                        <a href="#contact" class="btn btn-primary btn-lg" data-lang="download-cv">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h2 class="cta-title text-white" data-lang="cta-title">
+                        Ready to start your project?
+                    </h2>
+                    <p class="cta-description text-white-50" data-lang="cta-desc">
+                        Let's discuss your ideas and create something amazing together.
+                    </p>
+                </div>
+                <div class="col-lg-4 text-end">
+                    <a href="#contact" class="btn btn-primary btn-lg" data-lang="cta-button">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <p class="section-subtitle text-uppercase" data-lang="testimonials-subtitle">WHAT CLIENTS SAY</p>
+                    <h2 class="section-title" data-lang="testimonials-title">Client Testimonials</h2>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p>"Wildan delivered an exceptional website that exceeded our expectations. His attention to detail and technical expertise is outstanding."</p>
+                        <div class="client-info">
+                            <img src="assets/img/client1.svg" alt="Client 1" class="client-avatar">
+                            <div>
+                                <h5>Sarah Johnson</h5>
+                                <span>CEO, TechStart</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p>"Professional, creative, and reliable. Wildan transformed our digital presence completely. Highly recommended for any web project."</p>
+                        <div class="client-info">
+                            <img src="assets/img/client2.svg" alt="Client 2" class="client-avatar">
+                            <div>
+                                <h5>Mike Chen</h5>
+                                <span>Founder, DigitalFlow</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p>"Amazing work! The website is fast, beautiful, and exactly what we needed. Wildan's communication throughout the project was excellent."</p>
+                        <div class="client-info">
+                            <img src="assets/img/client3.svg" alt="Client 3" class="client-avatar">
+                            <div>
+                                <h5>Emma Davis</h5>
+                                <span>Marketing Director</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p class="section-subtitle text-uppercase text-white" data-lang="faq-subtitle">QUESTIONS & ANSWERS</p>
+                    <h2 class="section-title text-white mb-4" data-lang="faq-title">Frequently Asked Questions</h2>
+                    <div class="faq-contact">
+                        <p class="text-white-50">Have a different question? Contact me directly.</p>
+                        <a href="#contact" class="btn btn-outline-light" data-lang="get-in-touch">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="faq-list">
+                        <div class="faq-item">
+                            <button class="faq-question" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                What is your development process?
+                                <i class="bi bi-chevron-down"></i>
+                            </button>
+                            <div class="collapse" id="faq1">
+                                <div class="faq-answer">
+                                    I follow a structured approach: planning, design, development, testing, and deployment. Regular communication ensures you're updated throughout the process.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <button class="faq-question" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                How long does a typical project take?
+                                <i class="bi bi-chevron-down"></i>
+                            </button>
+                            <div class="collapse" id="faq2">
+                                <div class="faq-answer">
+                                    Project timelines vary based on complexity. A simple website takes 2-4 weeks, while complex applications may take 2-6 months.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <button class="faq-question" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                Do you provide ongoing support?
+                                <i class="bi bi-chevron-down"></i>
+                            </button>
+                            <div class="collapse" id="faq3">
+                                <div class="faq-answer">
+                                    Yes, I offer maintenance packages and ongoing support to ensure your website stays updated and secure.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <p class="section-subtitle text-uppercase" data-lang="blog-subtitle">LATEST ARTICLES</p>
+                    <h2 class="section-title" data-lang="blog-title">From My Blog</h2>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-8">
+                    <article class="blog-featured">
+                        <div class="blog-image">
+                            <img src="assets/img/blog1.svg" alt="Featured Article" class="img-fluid">
+                        </div>
+                        <div class="blog-content">
+                            <span class="blog-category">Web Development</span>
+                            <h3>The Future of Web Development: Trends to Watch in 2024</h3>
+                            <p>Exploring the latest trends and technologies shaping the future of web development...</p>
+                            <div class="blog-meta">
+                                <span>December 15, 2023</span>
+                                <a href="#" class="read-more" data-lang="read-more">Read More</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-sidebar">
+                        <article class="blog-item">
+                            <div class="blog-image">
+                                <img src="assets/img/blog2.svg" alt="Blog 2" class="img-fluid">
+                            </div>
+                            <div class="blog-content">
+                                <h4>Building Responsive Websites with CSS Grid</h4>
+                                <span class="blog-date">December 10, 2023</span>
+                            </div>
+                        </article>
+                        <article class="blog-item">
+                            <div class="blog-image">
+                                <img src="assets/img/blog3.svg" alt="Blog 3" class="img-fluid">
+                            </div>
+                            <div class="blog-content">
+                                <h4>JavaScript Performance Optimization Tips</h4>
+                                <span class="blog-date">December 5, 2023</span>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="contact-form">
+                        <p class="section-subtitle text-uppercase text-white" data-lang="contact-subtitle">GET IN TOUCH</p>
+                        <h2 class="text-white mb-4" data-lang="contact-title">Let's Start a Conversation</h2>
+                        <p class="text-white-50 mb-4" data-lang="contact-desc">Have a project in mind or want to learn more about my services? Feel free to reach out.</p>
+                        <form>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" data-lang-placeholder="name-placeholder" placeholder="Your Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" data-lang-placeholder="email-placeholder" placeholder="Your Email" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" data-lang-placeholder="subject-placeholder" placeholder="Subject" required>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" rows="5" data-lang-placeholder="message-placeholder" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg" data-lang="send-message">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-info">
+                        <h3 class="text-white mb-4">Contact Me</h3>
+                        <div class="contact-item">
+                            <i class="bi bi-envelope"></i>
+                            <div>
+                                <h5>Email</h5>
+                                <p>wildan@example.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="bi bi-phone"></i>
+                            <div>
+                                <h5>Phone</h5>
+                                <p>+62 812 3456 7890</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="bi bi-geo-alt"></i>
+                            <div>
+                                <h5>Location</h5>
+                                <p>Jakarta, Indonesia</p>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+                            <a href="#" class="social-link"><i class="bi bi-github"></i></a>
+                            <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="bi bi-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h2 class="gradient-text" data-lang="final-cta-title">Ready to bring your ideas to life?</h2>
+                    <p class="text-white-50">Let's create something amazing together.</p>
+                </div>
+                <div class="col-lg-4 text-end">
+                    <a href="#contact" class="btn btn-primary btn-lg" data-lang="final-cta-button">Let's Talk</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h5 class="text-white mb-3">WSS</h5>
+                    <p class="text-white-50">Full Stack Developer passionate about creating amazing digital experiences.</p>
+                </div>
+                <div class="col-lg-2">
+                    <h6 class="text-white mb-3" data-lang="quick-links">Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="#home" data-lang="home">Home</a></li>
+                        <li><a href="#about" data-lang="about">About</a></li>
+                        <li><a href="#services" data-lang="services">Services</a></li>
+                        <li><a href="#portfolio" data-lang="portfolio">Portfolio</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h6 class="text-white mb-3" data-lang="footer-services">Services</h6>
+                    <ul class="footer-links">
+                        <li><a href="#" data-lang="web-design">Web Design</a></li>
+                        <li><a href="#" data-lang="development">Development</a></li>
+                        <li><a href="#" data-lang="mobile-apps">Mobile Apps</a></li>
+                        <li><a href="#" data-lang="consulting">Consulting</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h6 class="text-white mb-3" data-lang="contact">Contact</h6>
+                    <p class="text-white-50">wildan@example.com<br>+62 812 3456 7890</p>
+                    <div class="social-links mt-3">
+                        <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="bi bi-github"></i></a>
+                        <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4" style="border-color: rgba(255,255,255,0.1);">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="text-white-50 mb-0" data-lang="copyright">&copy; 2024 Wildan Safaat Sutisna. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Navbar background on scroll
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Animate elements on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections
+        document.querySelectorAll('section').forEach(section => {
+            section.style.opacity = '0';
+            section.style.transform = 'translateY(30px)';
+            section.style.transition = 'all 0.6s ease-out';
+            observer.observe(section);
+        });
+
+        // Contact form handling
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! I will get back to you soon.');
+            this.reset();
+        });
+
+        // Language Switcher
+        const translations = {
+            en: {
+                // Navigation
+                'home': 'Home',
+                'about': 'About',
+                'services': 'Services',
+                'portfolio': 'Portfolio',
+                'testimonials': 'Testimonials',
+                'blog': 'Blog',
+                'contact': 'Contact',
+                
+                // Hero section
+                'hero-title-1': 'The Simple,',
+                'hero-title-2': 'Clean Design',
+                'hero-description': "I'm Wildan Safaat Sutisna, a passionate Full Stack Developer creating amazing digital experiences with modern technologies.",
+                'view-work': 'View My Work',
+                'get-in-touch': 'Get In Touch',
+                'profile-title': 'Wildan Safaat',
+                'profile-desc': 'Full Stack Developer',
+                
+                // Services section
+                'services-subtitle': 'WHAT I DO',
+                'services-title': 'Services I Provide',
+                
+                // Web Design
+                'web-design-title': 'Web Design',
+                'web-design-desc': 'Creating beautiful, responsive, and user-friendly interfaces that elevate your brand.',
+                
+                // Development
+                'dev-title': 'Development',
+                'dev-desc': 'Building robust and scalable web applications with modern technologies and best practices.',
+                
+                // Mobile Apps
+                'mobile-title': 'Mobile Apps',
+                'mobile-desc': 'Developing cross-platform mobile applications that work seamlessly on iOS and Android.',
+                
+                // UI/UX Design
+                'uiux-title': 'UI/UX Design',
+                'uiux-desc': 'Crafting intuitive user experiences and interfaces that delight your customers.',
+                
+                // Portfolio section
+                'portfolio-subtitle': 'MY WORK',
+                'portfolio-title': 'Recent Projects',
+                'view-project': 'View Project',
+                'view-all-projects': 'View All Projects',
+                
+                // About section
+                'about-subtitle': 'ABOUT ME',
+                'about-title': 'Professional Web Developer & Designer',
+                'about-desc': 'With over 5 years of experience in web development, I specialize in creating beautiful, functional websites and applications. I combine technical expertise with creative problem-solving to deliver solutions that meet client needs.',
+                'about-desc-2': "I'm passionate about clean code, user experience, and staying current with emerging technologies. Let's work together to bring your digital vision to life.",
+                'download-cv': 'Download CV',
+                
+                // CTA section
+                'cta-title': 'Ready to start your project?',
+                'cta-desc': "Let's discuss your ideas and create something amazing together.",
+                'cta-button': 'Get Started',
+                
+                // Testimonials section
+                'testimonials-subtitle': 'WHAT CLIENTS SAY',
+                'testimonials-title': 'Client Testimonials',
+                
+                // FAQ section
+                'faq-subtitle': 'QUESTIONS & ANSWERS',
+                'faq-title': 'Frequently Asked Questions',
+                
+                // Blog section
+                'blog-subtitle': 'LATEST ARTICLES',
+                'blog-title': 'From My Blog',
+                'read-more': 'Read More',
+                
+                // Contact section
+                'contact-subtitle': 'GET IN TOUCH',
+                'contact-title': "Let's Start a Conversation",
+                'contact-desc': 'Have a project in mind or want to learn more about my services? Feel free to reach out.',
+                'name-placeholder': 'Your Name',
+                'email-placeholder': 'Your Email',
+                'subject-placeholder': 'Subject',
+                'message-placeholder': 'Your Message',
+                'send-message': 'Send Message',
+                
+                // Final CTA
+                'final-cta-title': 'Ready to bring your ideas to life?',
+                'final-cta-button': "Let's Talk",
+                
+                // Footer
+                'quick-links': 'Quick Links',
+                'footer-services': 'Services',
+                'web-design': 'Web Design',
+                'development': 'Development',
+                'mobile-apps': 'Mobile Apps',
+                'consulting': 'Consulting',
+                'copyright': '© 2024 Wildan Safaat Sutisna. All rights reserved.'
+            },
+            id: {
+                // Navigation
+                'home': 'Beranda',
+                'about': 'Tentang',
+                'services': 'Layanan',
+                'portfolio': 'Portofolio',
+                'testimonials': 'Testimoni',
+                'blog': 'Blog',
+                'contact': 'Kontak',
+                
+                // Hero section
+                'hero-title-1': 'Desain yang',
+                'hero-title-2': 'Simpel & Bersih',
+                'hero-description': 'Saya Wildan Safaat Sutisna, seorang Full Stack Developer yang berdedikasi menciptakan pengalaman digital yang luar biasa dengan teknologi modern.',
+                'view-work': 'Lihat Karya Saya',
+                'get-in-touch': 'Hubungi Saya',
+                'profile-title': 'Wildan Safaat',
+                'profile-desc': 'Full Stack Developer',
+                
+                // Services section
+                'services-subtitle': 'YANG SAYA LAKUKAN',
+                'services-title': 'Layanan yang Saya Berikan',
+                
+                // Web Design
+                'web-design-title': 'Desain Web',
+                'web-design-desc': 'Menciptakan antarmuka yang indah, responsif, dan ramah pengguna yang meningkatkan brand Anda.',
+                
+                // Development
+                'dev-title': 'Pengembangan',
+                'dev-desc': 'Membangun aplikasi web yang tangguh dan terukur dengan teknologi modern dan praktik terbaik.',
+                
+                // Mobile Apps
+                'mobile-title': 'Aplikasi Mobile',
+                'mobile-desc': 'Mengembangkan aplikasi mobile lintas platform yang berjalan mulus di iOS dan Android.',
+                
+                // UI/UX Design
+                'uiux-title': 'Desain UI/UX',
+                'uiux-desc': 'Merancang pengalaman dan antarmuka pengguna yang intuitif yang menyenangkan pelanggan Anda.',
+                
+                // Portfolio section
+                'portfolio-subtitle': 'KARYA SAYA',
+                'portfolio-title': 'Proyek Terbaru',
+                'view-project': 'Lihat Proyek',
+                'view-all-projects': 'Lihat Semua Proyek',
+                
+                // About section
+                'about-subtitle': 'TENTANG SAYA',
+                'about-title': 'Pengembang & Desainer Web Profesional',
+                'about-desc': 'Dengan pengalaman lebih dari 5 tahun dalam pengembangan web, saya mengkhususkan diri dalam membuat website dan aplikasi yang indah dan fungsional. Saya menggabungkan keahlian teknis dengan pemecahan masalah kreatif untuk memberikan solusi yang memenuhi kebutuhan klien.',
+                'about-desc-2': 'Saya memiliki hasrat untuk kode yang bersih, pengalaman pengguna, dan mengikuti perkembangan teknologi terbaru. Mari kita bekerja sama untuk mewujudkan visi digital Anda.',
+                'download-cv': 'Unduh CV',
+                
+                // CTA section
+                'cta-title': 'Siap untuk memulai proyek Anda?',
+                'cta-desc': 'Mari diskusikan ide Anda dan ciptakan sesuatu yang luar biasa bersama.',
+                'cta-button': 'Mulai Sekarang',
+                
+                // Testimonials section
+                'testimonials-subtitle': 'KATA KLIEN',
+                'testimonials-title': 'Testimoni Klien',
+                
+                // FAQ section
+                'faq-subtitle': 'PERTANYAAN & JAWABAN',
+                'faq-title': 'Pertanyaan yang Sering Diajukan',
+                
+                // Blog section
+                'blog-subtitle': 'ARTIKEL TERBARU',
+                'blog-title': 'Dari Blog Saya',
+                'read-more': 'Baca Selengkapnya',
+                
+                // Contact section
+                'contact-subtitle': 'HUBUNGI SAYA',
+                'contact-title': 'Mari Mulai Pembicaraan',
+                'contact-desc': 'Punya proyek dalam pikiran atau ingin tahu lebih banyak tentang layanan saya? Jangan ragu untuk menghubungi.',
+                'name-placeholder': 'Nama Anda',
+                'email-placeholder': 'Email Anda',
+                'subject-placeholder': 'Subjek',
+                'message-placeholder': 'Pesan Anda',
+                'send-message': 'Kirim Pesan',
+                
+                // Final CTA
+                'final-cta-title': 'Siap untuk mewujudkan ide Anda?',
+                'final-cta-button': 'Mari Bicara',
+                
+                // Footer
+                'quick-links': 'Tautan Cepat',
+                'footer-services': 'Layanan',
+                'web-design': 'Desain Web',
+                'development': 'Pengembangan',
+                'mobile-apps': 'Aplikasi Mobile',
+                'consulting': 'Konsultasi',
+                'copyright': '© 2024 Wildan Safaat Sutisna. Seluruh hak cipta dilindungi.'
+            }
+        };
+
+        // Initialize language from localStorage or default to English
+        let currentLang = localStorage.getItem('wssLang') || 'en';
+        
+        // Get the language toggle button
+        const langToggle = document.getElementById('language-toggle');
+        
+        // Function to update button text
+        function updateButtonText() {
+            const langText = langToggle.querySelector('.lang-text');
+            langText.textContent = currentLang.toUpperCase();
+        }
+        
+        // Function to update all text content based on current language
+        function updateContent() {
+            const elements = document.querySelectorAll('[data-lang]');
+            
+            elements.forEach(el => {
+                const key = el.getAttribute('data-lang');
+                if (translations[currentLang][key]) {
+                    el.textContent = translations[currentLang][key];
+                }
+            });
+            
+            // Update placeholders
+            updatePlaceholders();
+            
+            // Update button text
+            updateButtonText();
+            
+            // Save preference to localStorage
+            localStorage.setItem('wssLang', currentLang);
+        }
+        
+        // Toggle language when button is clicked
+        langToggle.addEventListener('click', () => {
+            currentLang = currentLang === 'en' ? 'id' : 'en';
+            
+            // Add animation effect to button
+            langToggle.classList.add('language-btn-active');
+            setTimeout(() => {
+                langToggle.classList.remove('language-btn-active');
+            }, 300);
+            
+            updateContent();
+        });
+        
+        // Function to update placeholders based on current language
+        function updatePlaceholders() {
+            const elements = document.querySelectorAll('[data-lang-placeholder]');
+            
+            elements.forEach(el => {
+                const key = el.getAttribute('data-lang-placeholder');
+                if (translations[currentLang][key]) {
+                    el.placeholder = translations[currentLang][key];
+                }
+            });
+        }
+        
+        // Initialize content with current language
+        updateButtonText();
+        
+        // Add data-lang attributes to all translatable elements
+        document.addEventListener('DOMContentLoaded', () => {
+            // Initialize with saved language
+            updateContent();
+            updatePlaceholders();
+        });
+    </script>
+</body>
+</html>

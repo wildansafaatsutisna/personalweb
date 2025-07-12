@@ -1,0 +1,316 @@
+/* Portfolio Detail Styles */
+
+/* Project Header */
+.project-header {
+    padding: 120px 0 30px;
+    background-color: #151934;
+}
+
+.project-breadcrumb {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.project-breadcrumb a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.project-breadcrumb a:hover {
+    color: #ffffff;
+}
+
+.project-breadcrumb i {
+    font-size: 12px;
+    margin: 0 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.project-breadcrumb span {
+    color: #fff;
+}
+
+/* Project Hero */
+.project-hero {
+    padding: 60px 0;
+    background-color: #151934;
+    color: #fff;
+}
+
+.project-title {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.project-category {
+    margin-bottom: 20px;
+}
+
+.project-category .badge {
+    background-color: rgba(104, 109, 224, 0.2);
+    color: #686de0;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 30px;
+}
+
+.project-description {
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.7;
+}
+
+.project-meta {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.meta-item {
+    margin-right: 40px;
+    margin-bottom: 15px;
+}
+
+.meta-item h6 {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 5px;
+}
+
+.meta-item p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.project-links .btn {
+    padding: 10px 24px;
+    font-weight: 500;
+}
+
+.project-main-image {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.project-main-image img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+.project-main-image:hover img {
+    transform: scale(1.02);
+}
+
+/* Project Gallery */
+.project-gallery {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+.gallery-item {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Project Process */
+.project-process {
+    padding: 80px 0;
+    background-color: #ffffff;
+}
+
+.process-timeline {
+    position: relative;
+    padding: 20px 0;
+}
+
+.process-timeline::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background-color: rgba(104, 109, 224, 0.2);
+}
+
+.process-item {
+    position: relative;
+    padding: 0 0 50px 70px;
+}
+
+.process-item:last-child {
+    padding-bottom: 0;
+}
+
+.process-number {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    background-color: #686de0;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    z-index: 2;
+}
+
+.process-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.process-description {
+    color: #666;
+    line-height: 1.7;
+}
+
+/* Next Project */
+.next-project {
+    padding: 80px 0;
+    background-color: #151934;
+    color: #fff;
+}
+
+.next-label {
+    color: #686de0;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.next-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.next-description {
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 30px;
+}
+
+.next-image {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.next-image img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+.next-image:hover img {
+    transform: scale(1.02);
+}
+
+/* Portfolio CTA Section */
+.portfolio-cta {
+    padding: 100px 0;
+    background-color: #f8f9fa;
+}
+
+.cta-title {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.cta-title span {
+    color: #686de0;
+}
+
+.cta-description {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+    max-width: 600px;
+}
+
+.cta-image {
+    text-align: center;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    .project-title {
+        font-size: 36px;
+    }
+    
+    .next-title {
+        font-size: 30px;
+    }
+    
+    .cta-title {
+        font-size: 36px;
+    }
+    
+    .project-hero {
+        padding: 50px 0;
+    }
+    
+    .project-main-image {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-title {
+        font-size: 30px;
+    }
+    
+    .project-meta {
+        flex-direction: column;
+    }
+    
+    .meta-item {
+        margin-bottom: 20px;
+    }
+    
+    .process-item {
+        padding-left: 50px;
+    }
+    
+    .process-number {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+    
+    .process-title {
+        font-size: 20px;
+    }
+    
+    .next-image {
+        margin-top: 30px;
+    }
+}

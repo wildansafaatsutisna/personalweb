@@ -1,0 +1,120 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dddGal3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b"/>
+      <stop offset="100%" style="stop-color:#ffa726"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#dddGal3)"/>
+  
+  <!-- Team collaboration view -->
+  <rect x="60" y="60" width="680" height="480" fill="#ffffff" rx="20"/>
+  
+  <!-- Header -->
+  <rect x="60" y="60" width="680" height="70" fill="#ff6b6b" rx="20"/>
+  <rect x="60" y="110" width="680" height="20" fill="#ff6b6b"/>
+  
+  <text x="400" y="105" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="26" font-weight="bold">DDDone Team Workspace</text>
+  
+  <!-- Team members section -->
+  <rect x="80" y="150" width="640" height="120" fill="#f8f9fa"/>
+  <text x="400" y="170" text-anchor="middle" fill="#495057" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Active Team Members</text>
+  
+  <!-- Team member cards -->
+  <rect x="100" y="190" width="120" height="70" fill="#ffffff" stroke="#28a745" stroke-width="2"/>
+  <circle cx="135" cy="210" r="15" fill="#28a745"/>
+  <text x="160" y="210" fill="#495057" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Sarah Chen</text>
+  <text x="160" y="225" fill="#6c757d" font-family="Arial, sans-serif" font-size="9">UI/UX Designer</text>
+  <text x="160" y="240" fill="#28a745" font-family="Arial, sans-serif" font-size="8">● Online</text>
+  <text x="160" y="250" fill="#6c757d" font-family="Arial, sans-serif" font-size="8">5 tasks active</text>
+  
+  <rect x="240" y="190" width="120" height="70" fill="#ffffff" stroke="#ffc107" stroke-width="2"/>
+  <circle cx="275" cy="210" r="15" fill="#ffc107"/>
+  <text x="300" y="210" fill="#495057" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Mike Ross</text>
+  <text x="300" y="225" fill="#6c757d" font-family="Arial, sans-serif" font-size="9">Developer</text>
+  <text x="300" y="240" fill="#ffc107" font-family="Arial, sans-serif" font-size="8">● Away</text>
+  <text x="300" y="250" fill="#6c757d" font-family="Arial, sans-serif" font-size="8">3 tasks active</text>
+  
+  <rect x="380" y="190" width="120" height="70" fill="#ffffff" stroke="#e94560" stroke-width="2"/>
+  <circle cx="415" cy="210" r="15" fill="#e94560"/>
+  <text x="440" y="210" fill="#495057" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Alex Kim</text>
+  <text x="440" y="225" fill="#6c757d" font-family="Arial, sans-serif" font-size="9">Project Manager</text>
+  <text x="440" y="240" fill="#e94560" font-family="Arial, sans-serif" font-size="8">● Busy</text>
+  <text x="440" y="250" fill="#6c757d" font-family="Arial, sans-serif" font-size="8">8 tasks active</text>
+  
+  <rect x="520" y="190" width="120" height="70" fill="#ffffff" stroke="#0f3460" stroke-width="2"/>
+  <circle cx="555" cy="210" r="15" fill="#0f3460"/>
+  <text x="580" y="210" fill="#495057" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Lisa Wang</text>
+  <text x="580" y="225" fill="#6c757d" font-family="Arial, sans-serif" font-size="9">QA Tester</text>
+  <text x="580" y="240" fill="#0f3460" font-family="Arial, sans-serif" font-size="8">● Online</text>
+  <text x="580" y="250" fill="#6c757d" font-family="Arial, sans-serif" font-size="8">2 tasks active</text>
+  
+  <!-- Real-time activity feed -->
+  <rect x="80" y="290" width="300" height="230" fill="#f8f9fa" stroke="#dee2e6"/>
+  <text x="230" y="310" text-anchor="middle" fill="#495057" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Live Activity Feed</text>
+  
+  <!-- Activity items -->
+  <rect x="100" y="330" width="260" height="25" fill="#ffffff"/>
+  <circle cx="115" cy="342" r="6" fill="#28a745"/>
+  <text x="130" y="347" fill="#495057" font-family="Arial, sans-serif" font-size="9">Sarah completed "Login Page Design"</text>
+  <text x="350" y="347" fill="#6c757d" font-family="Arial, sans-serif" font-size="8">2 min ago</text>
+  
+  <rect x="100" y="360" width="260" height="25" fill="#ffffff"/>
+  <circle cx="115" cy="372" r="6" fill="#ffc107"/>
+  <text x="130" y="377" fill="#495057" font-family="Arial, sans-serif" font-size="9">Mike started "API Authentication"</text>
+  <text x="350" y="377" fill="#6c757d" font-family="Arial, sans-serif" font-size="8">5 min ago</text>
+  
+  <rect x="100" y="390" width="260" height="25" fill="#ffffff"/>
+  <circle cx="115" cy="402" r="6" fill="#e94560"/>
+  <text x="130" y="407" fill="#495057" font-family="Arial, sans-serif" font-size="9">Alex created "Sprint Planning"</text>
+  <text x="350" y="407" fill="#6c757d" font-family="Arial, sans-serif" font-size="8">10 min ago</text>
+  
+  <rect x="100" y="420" width="260" height="25" fill="#ffffff"/>
+  <circle cx="115" cy="432" r="6" fill="#0f3460"/>
+  <text x="130" y="437" fill="#495057" font-family="Arial, sans-serif" font-size="9">Lisa reported "Bug in checkout flow"</text>
+  <text x="350" y="437" fill="#6c757d" font-family="Arial, sans-serif" font-size="8">15 min ago</text>
+  
+  <rect x="100" y="450" width="260" height="25" fill="#ffffff"/>
+  <circle cx="115" cy="462" r="6" fill="#28a745"/>
+  <text x="130" y="467" fill="#495057" font-family="Arial, sans-serif" font-size="9">Sarah uploaded new assets</text>
+  <text x="350" y="467" fill="#6c757d" font-family="Arial, sans-serif" font-size="8">20 min ago</text>
+  
+  <rect x="100" y="480" width="260" height="25" fill="#ffffff"/>
+  <circle cx="115" cy="492" r="6" fill="#ffc107"/>
+  <text x="130" y="497" fill="#495057" font-family="Arial, sans-serif" font-size="9">Mike pushed code to repository</text>
+  <text x="350" y="497" fill="#6c757d" font-family="Arial, sans-serif" font-size="8">25 min ago</text>
+  
+  <!-- Current sprint overview -->
+  <rect x="400" y="290" width="320" height="230" fill="#f8f9fa" stroke="#dee2e6"/>
+  <text x="560" y="310" text-anchor="middle" fill="#495057" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Current Sprint Progress</text>
+  
+  <!-- Sprint stats -->
+  <rect x="420" y="330" width="280" height="60" fill="#ffffff"/>
+  <text x="430" y="350" fill="#495057" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Sprint 12 - Q4 Features</text>
+  <text x="430" y="365" fill="#6c757d" font-family="Arial, sans-serif" font-size="10">Duration: 2 weeks | Ends in 3 days</text>
+  
+  <!-- Progress bars -->
+  <text x="430" y="380" fill="#495057" font-family="Arial, sans-serif" font-size="10">Completed Tasks:</text>
+  <rect x="540" y="375" width="120" height="8" fill="#e9ecef"/>
+  <rect x="540" y="375" width="84" height="8" fill="#28a745"/>
+  <text x="670" y="382" fill="#28a745" font-family="Arial, sans-serif" font-size="9">70%</text>
+  
+  <!-- Team velocity chart -->
+  <rect x="420" y="410" width="280" height="100" fill="#ffffff"/>
+  <text x="560" y="430" text-anchor="middle" fill="#495057" font-family="Arial, sans-serif" font-size="12">Velocity Trend</text>
+  
+  <!-- Simple velocity bars -->
+  <rect x="440" y="470" width="20" height="30" fill="#e94560"/>
+  <rect x="470" y="460" width="20" height="40" fill="#ffc107"/>
+  <rect x="500" y="450" width="20" height="50" fill="#28a745"/>
+  <rect x="530" y="445" width="20" height="55" fill="#28a745"/>
+  <rect x="560" y="440" width="20" height="60" fill="#0f3460"/>
+  <rect x="590" y="435" width="20" height="65" fill="#0f3460"/>
+  <rect x="620" y="430" width="20" height="70" fill="#0f3460"/>
+  <rect x="650" y="425" width="20" height="75" fill="#0f3460"/>
+  
+  <!-- Text -->
+  <text x="400" y="40" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold">DDDone Gallery 3 - Team Collaboration</text>
+</svg>

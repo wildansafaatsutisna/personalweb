@@ -1,0 +1,113 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="handpGal1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c3e50"/>
+      <stop offset="100%" style="stop-color:#34495e"/>
+    </linearGradient>
+    <linearGradient id="fabricDetail" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ecf0f1"/>
+      <stop offset="100%" style="stop-color:#bdc3c7"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#handpGal1)"/>
+  
+  <!-- Fabric and texture showcase -->
+  <rect x="50" y="50" width="700" height="500" fill="#ffffff" rx="20"/>
+  
+  <!-- Title area -->
+  <rect x="50" y="50" width="700" height="80" fill="#2c3e50" rx="20"/>
+  <rect x="50" y="110" width="700" height="20" fill="#2c3e50"/>
+  
+  <text x="400" y="100" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="28" font-weight="bold">HandP Material Selection</text>
+  
+  <!-- Fabric samples grid -->
+  <rect x="80" y="150" width="150" height="120" fill="url(#fabricDetail)" stroke="#bdc3c7" stroke-width="3"/>
+  <text x="155" y="285" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Premium Cotton</text>
+  <text x="155" y="300" text-anchor="middle" fill="#7f8c8d" font-family="Arial, sans-serif" font-size="10">Breathable • Durable</text>
+  
+  <rect x="250" y="150" width="150" height="120" fill="#95a5a6" stroke="#7f8c8d" stroke-width="3"/>
+  <text x="325" y="285" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Merino Wool</text>
+  <text x="325" y="300" text-anchor="middle" fill="#7f8c8d" font-family="Arial, sans-serif" font-size="10">Warm • Luxury</text>
+  
+  <rect x="420" y="150" width="150" height="120" fill="#34495e" stroke="#2c3e50" stroke-width="3"/>
+  <text x="495" y="285" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Silk Blend</text>
+  <text x="495" y="300" text-anchor="middle" fill="#7f8c8d" font-family="Arial, sans-serif" font-size="10">Elegant • Smooth</text>
+  
+  <rect x="590" y="150" width="150" height="120" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="3"/>
+  <text x="665" y="285" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Linen</text>
+  <text x="665" y="300" text-anchor="middle" fill="#7f8c8d" font-family="Arial, sans-serif" font-size="10">Natural • Cool</text>
+  
+  <!-- Fabric texture details -->
+  <!-- Cotton texture -->
+  <g opacity="0.3">
+    <circle cx="110" cy="180" r="3" fill="#bdc3c7"/>
+    <circle cx="130" cy="190" r="2" fill="#bdc3c7"/>
+    <circle cx="150" cy="185" r="3" fill="#bdc3c7"/>
+    <circle cx="170" cy="195" r="2" fill="#bdc3c7"/>
+    <circle cx="190" cy="180" r="3" fill="#bdc3c7"/>
+    <circle cx="210" cy="200" r="2" fill="#bdc3c7"/>
+  </g>
+  
+  <!-- Wool texture -->
+  <g opacity="0.4">
+    <path d="M 270 170 Q 280 165 290 170 Q 300 175 310 170 Q 320 165 330 170" stroke="#7f8c8d" stroke-width="2" fill="none"/>
+    <path d="M 270 185 Q 280 180 290 185 Q 300 190 310 185 Q 320 180 330 185" stroke="#7f8c8d" stroke-width="2" fill="none"/>
+    <path d="M 270 200 Q 280 195 290 200 Q 300 205 310 200 Q 320 195 330 200" stroke="#7f8c8d" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Color palette section -->
+  <rect x="80" y="340" width="640" height="120" fill="#f8f9fa"/>
+  <text x="400" y="365" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="16" font-weight="bold">HandP Color Palette</text>
+  
+  <!-- Color swatches -->
+  <circle cx="150" cy="400" r="25" fill="#2c3e50"/>
+  <text x="150" y="440" text-anchor="middle" fill="#495057" font-family="Arial, sans-serif" font-size="10">Midnight</text>
+  
+  <circle cx="220" cy="400" r="25" fill="#ecf0f1"/>
+  <text x="220" y="440" text-anchor="middle" fill="#495057" font-family="Arial, sans-serif" font-size="10">Pearl</text>
+  
+  <circle cx="290" cy="400" r="25" fill="#95a5a6"/>
+  <text x="290" y="440" text-anchor="middle" fill="#495057" font-family="Arial, sans-serif" font-size="10">Stone</text>
+  
+  <circle cx="360" cy="400" r="25" fill="#8b4513"/>
+  <text x="360" y="440" text-anchor="middle" fill="#495057" font-family="Arial, sans-serif" font-size="10">Cognac</text>
+  
+  <circle cx="430" cy="400" r="25" fill="#006400"/>
+  <text x="430" y="440" text-anchor="middle" fill="#495057" font-family="Arial, sans-serif" font-size="10">Forest</text>
+  
+  <circle cx="500" cy="400" r="25" fill="#800020"/>
+  <text x="500" y="440" text-anchor="middle" fill="#495057" font-family="Arial, sans-serif" font-size="10">Burgundy</text>
+  
+  <circle cx="570" cy="400" r="25" fill="#191970"/>
+  <text x="570" y="440" text-anchor="middle" fill="#495057" font-family="Arial, sans-serif" font-size="10">Navy</text>
+  
+  <circle cx="640" cy="400" r="25" fill="#a0522d"/>
+  <text x="640" y="440" text-anchor="middle" fill="#495057" font-family="Arial, sans-serif" font-size="10">Camel</text>
+  
+  <!-- Quality indicators -->
+  <rect x="80" y="480" width="640" height="50" fill="#ffffff"/>
+  <text x="400" y="500" text-anchor="middle" fill="#2c3e50" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Premium Quality Standards</text>
+  
+  <rect x="120" y="510" width="80" height="15" fill="#28a745"/>
+  <text x="160" y="522" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="9" font-weight="bold">ORGANIC</text>
+  
+  <rect x="220" y="510" width="80" height="15" fill="#0f3460"/>
+  <text x="260" y="522" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="9" font-weight="bold">CERTIFIED</text>
+  
+  <rect x="320" y="510" width="80" height="15" fill="#e94560"/>
+  <text x="360" y="522" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="9" font-weight="bold">PREMIUM</text>
+  
+  <rect x="420" y="510" width="80" height="15" fill="#ffc107"/>
+  <text x="460" y="522" text-anchor="middle" fill="#000000" font-family="Arial, sans-serif" font-size="9" font-weight="bold">ARTISAN</text>
+  
+  <rect x="520" y="510" width="80" height="15" fill="#6f42c1"/>
+  <text x="560" y="522" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="9" font-weight="bold">LIMITED</text>
+  
+  <rect x="620" y="510" width="80" height="15" fill="#20c997"/>
+  <text x="660" y="522" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="9" font-weight="bold">ECO-LUXURY</text>
+  
+  <!-- Text -->
+  <text x="400" y="30" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold">HandP Gallery 1 - Material Excellence</text>
+</svg>

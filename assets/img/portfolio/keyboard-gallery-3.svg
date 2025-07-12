@@ -1,0 +1,69 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="keyGradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f3460"/>
+      <stop offset="100%" style="stop-color:#e94560"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGradient3)"/>
+  
+  <!-- Keyboard Base -->
+  <rect x="100" y="200" width="600" height="200" rx="15" fill="#2d2d2d" stroke="#444" stroke-width="2"/>
+  
+  <!-- Keys Grid -->
+  <g transform="translate(120, 220)">
+    <!-- Row 1 -->
+    <rect x="0" y="0" width="40" height="40" rx="5" fill="url(#keyGradient3)"/>
+    <rect x="50" y="0" width="40" height="40" rx="5" fill="url(#keyGradient3)"/>
+    <rect x="100" y="0" width="40" height="40" rx="5" fill="url(#keyGradient3)"/>
+    <rect x="150" y="0" width="40" height="40" rx="5" fill="url(#keyGradient3)"/>
+    <rect x="200" y="0" width="40" height="40" rx="5" fill="url(#keyGradient3)"/>
+    <rect x="250" y="0" width="40" height="40" rx="5" fill="url(#keyGradient3)"/>
+    <rect x="300" y="0" width="40" height="40" rx="5" fill="url(#keyGradient3)"/>
+    <rect x="350" y="0" width="40" height="40" rx="5" fill="url(#keyGradient3)"/>
+    <rect x="400" y="0" width="40" height="40" rx="5" fill="url(#keyGradient3)"/>
+    <rect x="450" y="0" width="40" height="40" rx="5" fill="url(#keyGradient3)"/>
+    <rect x="500" y="0" width="60" height="40" rx="5" fill="url(#keyGradient3)"/>
+    
+    <!-- Row 2 -->
+    <rect x="0" y="50" width="60" height="40" rx="5" fill="url(#keyGradient3)"/>
+    <rect x="70" y="50" width="40" height="40" rx="5" fill="url(#keyGradient3)"/>
+    <rect x="120" y="50" width="40" height="40" rx="5" fill="url(#keyGradient3)"/>
+    <rect x="170" y="50" width="40" height="40" rx="5" fill="url(#keyGradient3)"/>
+    <rect x="220" y="50" width="40" height="40" rx="5" fill="url(#keyGradient3)"/>
+    <rect x="270" y="50" width="40" height="40" rx="5" fill="url(#keyGradient3)"/>
+    <rect x="320" y="50" width="40" height="40" rx="5" fill="url(#keyGradient3)"/>
+    <rect x="370" y="50" width="40" height="40" rx="5" fill="url(#keyGradient3)"/>
+    <rect x="420" y="50" width="40" height="40" rx="5" fill="url(#keyGradient3)"/>
+    <rect x="470" y="50" width="90" height="40" rx="5" fill="url(#keyGradient3)"/>
+    
+    <!-- Row 3 -->
+    <rect x="0" y="100" width="80" height="40" rx="5" fill="url(#keyGradient3)"/>
+    <rect x="90" y="100" width="40" height="40" rx="5" fill="url(#keyGradient3)"/>
+    <rect x="140" y="100" width="40" height="40" rx="5" fill="url(#keyGradient3)"/>
+    <rect x="190" y="100" width="40" height="40" rx="5" fill="url(#keyGradient3)"/>
+    <rect x="240" y="100" width="40" height="40" rx="5" fill="url(#keyGradient3)"/>
+    <rect x="290" y="100" width="40" height="40" rx="5" fill="url(#keyGradient3)"/>
+    <rect x="340" y="100" width="40" height="40" rx="5" fill="url(#keyGradient3)"/>
+    <rect x="390" y="100" width="40" height="40" rx="5" fill="url(#keyGradient3)"/>
+    <rect x="440" y="100" width="120" height="40" rx="5" fill="url(#keyGradient3)"/>
+    
+    <!-- Spacebar -->
+    <rect x="150" y="150" width="250" height="30" rx="5" fill="url(#keyGradient3)"/>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="200" cy="150" r="3" fill="#e94560" opacity="0.8"/>
+  <circle cx="600" cy="450" r="3" fill="#e94560" opacity="0.8"/>
+  <circle cx="150" cy="480" r="2" fill="#0f3460" opacity="0.6"/>
+  
+  <!-- Brand Text -->
+  <text x="400" y="500" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="28" font-weight="bold">KeyBoard Gallery</text>
+  <text x="400" y="530" text-anchor="middle" fill="#e94560" font-family="Arial, sans-serif" font-size="16">Premium Mechanical Experience</text>
+</svg>

@@ -1,0 +1,86 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dddGal2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b"/>
+      <stop offset="100%" style="stop-color:#ffa726"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#dddGal2)"/>
+  
+  <!-- Analytics dashboard -->
+  <rect x="80" y="80" width="640" height="440" fill="#ffffff" rx="15"/>
+  
+  <!-- Header -->
+  <rect x="80" y="80" width="640" height="60" fill="#ff6b6b" rx="15"/>
+  <rect x="80" y="120" width="640" height="20" fill="#ff6b6b"/>
+  
+  <text x="400" y="120" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold">DDDone Analytics</text>
+  
+  <!-- Stats cards -->
+  <rect x="100" y="160" width="140" height="80" fill="#f8f9fa" stroke="#28a745" stroke-width="2"/>
+  <text x="170" y="180" text-anchor="middle" fill="#28a745" font-family="Arial, sans-serif" font-size="24" font-weight="bold">234</text>
+  <text x="170" y="200" text-anchor="middle" fill="#495057" font-family="Arial, sans-serif" font-size="12">Completed Tasks</text>
+  <text x="170" y="220" text-anchor="middle" fill="#28a745" font-family="Arial, sans-serif" font-size="10">↗ +12% this week</text>
+  
+  <rect x="260" y="160" width="140" height="80" fill="#f8f9fa" stroke="#ffc107" stroke-width="2"/>
+  <text x="330" y="180" text-anchor="middle" fill="#ffc107" font-family="Arial, sans-serif" font-size="24" font-weight="bold">45</text>
+  <text x="330" y="200" text-anchor="middle" fill="#495057" font-family="Arial, sans-serif" font-size="12">Active Projects</text>
+  <text x="330" y="220" text-anchor="middle" fill="#ffc107" font-family="Arial, sans-serif" font-size="10">→ 0% this week</text>
+  
+  <rect x="420" y="160" width="140" height="80" fill="#f8f9fa" stroke="#e94560" stroke-width="2"/>
+  <text x="490" y="180" text-anchor="middle" fill="#e94560" font-family="Arial, sans-serif" font-size="24" font-weight="bold">12</text>
+  <text x="490" y="200" text-anchor="middle" fill="#495057" font-family="Arial, sans-serif" font-size="12">Overdue Tasks</text>
+  <text x="490" y="220" text-anchor="middle" fill="#e94560" font-family="Arial, sans-serif" font-size="10">↘ -3% this week</text>
+  
+  <rect x="580" y="160" width="120" height="80" fill="#f8f9fa" stroke="#0f3460" stroke-width="2"/>
+  <text x="640" y="180" text-anchor="middle" fill="#0f3460" font-family="Arial, sans-serif" font-size="24" font-weight="bold">89%</text>
+  <text x="640" y="200" text-anchor="middle" fill="#495057" font-family="Arial, sans-serif" font-size="12">Efficiency</text>
+  <text x="640" y="220" text-anchor="middle" fill="#0f3460" font-family="Arial, sans-serif" font-size="10">↗ +5% this week</text>
+  
+  <!-- Chart area -->
+  <rect x="100" y="260" width="600" height="200" fill="#f8f9fa" stroke="#dee2e6"/>
+  <text x="400" y="280" text-anchor="middle" fill="#495057" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Task Completion Over Time</text>
+  
+  <!-- Chart bars -->
+  <rect x="120" y="380" width="30" height="60" fill="#28a745"/>
+  <rect x="160" y="360" width="30" height="80" fill="#28a745"/>
+  <rect x="200" y="340" width="30" height="100" fill="#28a745"/>
+  <rect x="240" y="320" width="30" height="120" fill="#28a745"/>
+  <rect x="280" y="300" width="30" height="140" fill="#28a745"/>
+  <rect x="320" y="310" width="30" height="130" fill="#ffc107"/>
+  <rect x="360" y="290" width="30" height="150" fill="#ffc107"/>
+  <rect x="400" y="280" width="30" height="160" fill="#ffc107"/>
+  <rect x="440" y="270" width="30" height="170" fill="#e94560"/>
+  <rect x="480" y="260" width="30" height="180" fill="#e94560"/>
+  <rect x="520" y="250" width="30" height="190" fill="#e94560"/>
+  <rect x="560" y="240" width="30" height="200" fill="#0f3460"/>
+  
+  <!-- Chart labels -->
+  <text x="135" y="455" text-anchor="middle" fill="#6c757d" font-family="Arial, sans-serif" font-size="8">Jan</text>
+  <text x="175" y="455" text-anchor="middle" fill="#6c757d" font-family="Arial, sans-serif" font-size="8">Feb</text>
+  <text x="215" y="455" text-anchor="middle" fill="#6c757d" font-family="Arial, sans-serif" font-size="8">Mar</text>
+  <text x="255" y="455" text-anchor="middle" fill="#6c757d" font-family="Arial, sans-serif" font-size="8">Apr</text>
+  <text x="295" y="455" text-anchor="middle" fill="#6c757d" font-family="Arial, sans-serif" font-size="8">May</text>
+  <text x="335" y="455" text-anchor="middle" fill="#6c757d" font-family="Arial, sans-serif" font-size="8">Jun</text>
+  <text x="375" y="455" text-anchor="middle" fill="#6c757d" font-family="Arial, sans-serif" font-size="8">Jul</text>
+  <text x="415" y="455" text-anchor="middle" fill="#6c757d" font-family="Arial, sans-serif" font-size="8">Aug</text>
+  <text x="455" y="455" text-anchor="middle" fill="#6c757d" font-family="Arial, sans-serif" font-size="8">Sep</text>
+  <text x="495" y="455" text-anchor="middle" fill="#6c757d" font-family="Arial, sans-serif" font-size="8">Oct</text>
+  <text x="535" y="455" text-anchor="middle" fill="#6c757d" font-family="Arial, sans-serif" font-size="8">Nov</text>
+  <text x="575" y="455" text-anchor="middle" fill="#6c757d" font-family="Arial, sans-serif" font-size="8">Dec</text>
+  
+  <!-- Team activity -->
+  <rect x="100" y="480" width="600" height="40" fill="#f8f9fa"/>
+  <text x="130" y="495" fill="#495057" font-family="Arial, sans-serif" font-size="10">Recent Activity:</text>
+  <circle cx="150" cy="505" r="4" fill="#28a745"/>
+  <text x="160" y="508" fill="#495057" font-family="Arial, sans-serif" font-size="9">John completed "Design Review"</text>
+  <circle cx="320" cy="505" r="4" fill="#ffc107"/>
+  <text x="330" y="508" fill="#495057" font-family="Arial, sans-serif" font-size="9">Sarah started "API Development"</text>
+  <circle cx="520" cy="505" r="4" fill="#e94560"/>
+  <text x="530" y="508" fill="#495057" font-family="Arial, sans-serif" font-size="9">Team meeting in 30 mins</text>
+  
+  <!-- Text -->
+  <text x="400" y="60" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold">DDDone Gallery 2 - Analytics Dashboard</text>
+</svg>

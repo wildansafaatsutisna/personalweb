@@ -1,0 +1,48 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sofaGal2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa"/>
+      <stop offset="100%" style="stop-color:#e9ecef"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#sofaGal2)"/>
+  
+  <!-- Close-up detail view -->
+  <rect x="0" y="0" width="800" height="400" fill="#ffffff"/>
+  <rect x="0" y="400" width="800" height="200" fill="#f1f3f4"/>
+  
+  <!-- Fabric texture detail -->
+  <rect x="100" y="150" width="600" height="300" fill="#6c757d"/>
+  
+  <!-- Fabric pattern -->
+  <g opacity="0.3">
+    <line x1="120" y1="170" x2="680" y2="170" stroke="#495057" stroke-width="2"/>
+    <line x1="120" y1="200" x2="680" y2="200" stroke="#495057" stroke-width="2"/>
+    <line x1="120" y1="230" x2="680" y2="230" stroke="#495057" stroke-width="2"/>
+    <line x1="120" y1="260" x2="680" y2="260" stroke="#495057" stroke-width="2"/>
+    <line x1="120" y1="290" x2="680" y2="290" stroke="#495057" stroke-width="2"/>
+    <line x1="120" y1="320" x2="680" y2="320" stroke="#495057" stroke-width="2"/>
+    <line x1="120" y1="350" x2="680" y2="350" stroke="#495057" stroke-width="2"/>
+    <line x1="120" y1="380" x2="680" y2="380" stroke="#495057" stroke-width="2"/>
+    <line x1="120" y1="410" x2="680" y2="410" stroke="#495057" stroke-width="2"/>
+  </g>
+  
+  <!-- Stitching detail -->
+  <path d="M 150 200 Q 170 190 190 200 Q 210 210 230 200 Q 250 190 270 200" stroke="#343a40" stroke-width="3" fill="none"/>
+  <path d="M 150 250 Q 170 240 190 250 Q 210 260 230 250 Q 250 240 270 250" stroke="#343a40" stroke-width="3" fill="none"/>
+  
+  <!-- Button detail -->
+  <circle cx="400" cy="300" r="25" fill="#495057"/>
+  <circle cx="400" cy="300" r="20" fill="#6c757d"/>
+  <circle cx="400" cy="300" r="15" fill="#495057"/>
+  
+  <!-- Material sample -->
+  <rect x="550" y="200" width="100" height="100" fill="#adb5bd"/>
+  <text x="600" y="260" text-anchor="middle" fill="#495057" font-family="Arial, sans-serif" font-size="12">Premium</text>
+  <text x="600" y="280" text-anchor="middle" fill="#495057" font-family="Arial, sans-serif" font-size="12">Fabric</text>
+  
+  <!-- Text -->
+  <text x="400" y="100" text-anchor="middle" fill="#495057" font-family="Arial, sans-serif" font-size="24" font-weight="bold">SOFA Gallery 2 - Material Detail</text>
+</svg>

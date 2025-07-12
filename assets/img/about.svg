@@ -1,0 +1,66 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aboutGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:0.2" />
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f8fafc"/>
+  <rect width="600" height="400" fill="url(#aboutGradient)"/>
+  
+  <!-- Main figure -->
+  <ellipse cx="300" cy="350" rx="60" ry="20" fill="#e2e8f0" opacity="0.3"/>
+  
+  <!-- Person silhouette -->
+  <circle cx="300" cy="160" r="50" fill="url(#cardGradient)"/>
+  <path d="M300 210 C250 210, 220 240, 220 270 L220 350 L380 350 L380 270 C380 240, 350 210, 300 210 Z" fill="url(#cardGradient)"/>
+  
+  <!-- Laptop/workspace -->
+  <rect x="200" y="280" width="200" height="120" rx="10" fill="#1e293b" opacity="0.8"/>
+  <rect x="210" y="290" width="180" height="100" rx="5" fill="#0f172a"/>
+  <rect x="220" y="300" width="160" height="80" fill="#111827"/>
+  
+  <!-- Code on screen -->
+  <rect x="230" y="310" width="50" height="3" fill="#6366f1"/>
+  <rect x="230" y="320" width="80" height="3" fill="#8b5cf6"/>
+  <rect x="240" y="330" width="60" height="3" fill="#f59e0b"/>
+  <rect x="230" y="340" width="90" height="3" fill="#6366f1"/>
+  <rect x="240" y="350" width="40" height="3" fill="#8b5cf6"/>
+  <rect x="230" y="360" width="70" height="3" fill="#f59e0b"/>
+  
+  <!-- Floating tech elements -->
+  <g transform="translate(100, 100)" opacity="0.6">
+    <circle cx="0" cy="0" r="20" fill="#6366f1" opacity="0.2"/>
+    <text x="-8" y="5" font-family="monospace" font-size="16" fill="#6366f1">JS</text>
+  </g>
+  
+  <g transform="translate(480, 120)" opacity="0.6">
+    <circle cx="0" cy="0" r="18" fill="#8b5cf6" opacity="0.2"/>
+    <rect x="-10" y="-10" width="20" height="20" rx="3" fill="#8b5cf6" opacity="0.3"/>
+    <text x="-6" y="3" font-family="sans-serif" font-size="12" fill="#8b5cf6">R</text>
+  </g>
+  
+  <g transform="translate(120, 280)" opacity="0.5">
+    <polygon points="0,-15 13,10 -13,10" fill="#f59e0b"/>
+    <circle cx="0" cy="0" r="8" fill="#f59e0b" opacity="0.3"/>
+  </g>
+  
+  <g transform="translate(450, 280)" opacity="0.5">
+    <rect x="-10" y="-10" width="20" height="20" rx="5" fill="#6366f1" opacity="0.3"/>
+    <circle cx="0" cy="0" r="6" fill="#6366f1"/>
+  </g>
+  
+  <!-- Grid pattern -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#e2e8f0" stroke-width="1" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="400" fill="url(#grid)"/>
+</svg>

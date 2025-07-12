@@ -1,0 +1,122 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fullstackGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="#1e1b4b"/>
+  
+  <!-- Laptop -->
+  <rect x="80" y="140" width="300" height="180" rx="10" fill="#374151"/>
+  <rect x="90" y="150" width="280" height="160" fill="#111827"/>
+  <rect x="100" y="160" width="260" height="130" fill="#f8fafc"/>
+  
+  <!-- Laptop screen content -->
+  <rect x="110" y="170" width="240" height="25" fill="url(#fullstackGradient)"/>
+  <rect x="120" y="175" width="40" height="5" fill="#ffffff" opacity="0.8"/>
+  
+  <!-- Code editor -->
+  <rect x="110" y="205" width="240" height="75" fill="#1e293b"/>
+  <rect x="115" y="210" width="60" height="3" fill="#6366f1"/>
+  <rect x="120" y="220" width="80" height="3" fill="#8b5cf6"/>
+  <rect x="115" y="230" width="50" height="3" fill="#f59e0b"/>
+  <rect x="125" y="240" width="90" height="3" fill="#6366f1"/>
+  <rect x="115" y="250" width="70" height="3" fill="#8b5cf6"/>
+  <rect x="120" y="260" width="40" height="3" fill="#f59e0b"/>
+  <rect x="115" y="270" width="85" height="3" fill="#6366f1"/>
+  
+  <!-- Laptop base -->
+  <rect x="50" y="320" width="360" height="15" rx="7" fill="#374151"/>
+  
+  <!-- Mobile device -->
+  <rect x="420" y="120" width="100" height="180" rx="20" fill="#374151"/>
+  <rect x="430" y="135" width="80" height="150" fill="#111827"/>
+  <rect x="435" y="140" width="70" height="140" fill="#f8fafc"/>
+  
+  <!-- Mobile UI -->
+  <rect x="440" y="145" width="60" height="15" fill="url(#fullstackGradient)"/>
+  <circle cx="490" cy="152" r="3" fill="#ffffff"/>
+  
+  <!-- App interface -->
+  <circle cx="470" cy="180" r="15" fill="#6366f1" opacity="0.3"/>
+  <rect x="445" y="205" width="50" height="6" fill="#64748b"/>
+  <rect x="445" y="220" width="35" height="4" fill="#94a3b8"/>
+  
+  <rect x="445" y="235" width="50" height="15" rx="3" fill="#f1f5f9"/>
+  <rect x="445" y="255" width="50" height="15" rx="3" fill="#f1f5f9"/>
+  
+  <!-- Connection lines -->
+  <path d="M380 230 Q400 230 420 230" fill="none" stroke="#6366f1" stroke-width="3" opacity="0.6"/>
+  <circle cx="390" cy="230" r="3" fill="#6366f1"/>
+  <circle cx="410" cy="230" r="3" fill="#6366f1"/>
+  
+  <!-- Cloud/Server -->
+  <g transform="translate(300, 50)">
+    <ellipse cx="0" cy="20" rx="40" ry="15" fill="#8b5cf6" opacity="0.3"/>
+    <ellipse cx="-15" cy="10" rx="25" ry="12" fill="#8b5cf6" opacity="0.4"/>
+    <ellipse cx="15" cy="10" rx="25" ry="12" fill="#8b5cf6" opacity="0.4"/>
+    <ellipse cx="0" cy="0" rx="30" ry="15" fill="#8b5cf6" opacity="0.5"/>
+    
+    <!-- Server racks -->
+    <rect x="-20" y="5" width="40" height="20" rx="2" fill="#374151" opacity="0.8"/>
+    <rect x="-15" y="8" width="6" height="3" fill="#6366f1"/>
+    <rect x="-6" y="8" width="6" height="3" fill="#8b5cf6"/>
+    <rect x="3" y="8" width="6" height="3" fill="#f59e0b"/>
+    <rect x="-15" y="15" width="30" height="2" fill="#64748b"/>
+    <rect x="-15" y="19" width="30" height="2" fill="#64748b"/>
+  </g>
+  
+  <!-- API connections -->
+  <path d="M300 80 Q250 100 200 140" fill="none" stroke="#6366f1" stroke-width="2" stroke-dasharray="5,5" opacity="0.7"/>
+  <path d="M340 80 Q400 100 450 120" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-dasharray="5,5" opacity="0.7"/>
+  
+  <!-- Database -->
+  <g transform="translate(120, 60)">
+    <ellipse cx="0" cy="0" rx="30" ry="8" fill="#f59e0b" opacity="0.6"/>
+    <rect x="-30" y="0" width="60" height="20" fill="#f59e0b" opacity="0.4"/>
+    <ellipse cx="0" cy="20" rx="30" ry="8" fill="#f59e0b" opacity="0.6"/>
+    <ellipse cx="0" cy="10" rx="30" ry="8" fill="#f59e0b" opacity="0.8"/>
+    
+    <!-- DB icon -->
+    <circle cx="0" cy="10" r="8" fill="#ffffff" opacity="0.8"/>
+    <rect x="-3" y="6" width="6" height="8" fill="#f59e0b"/>
+  </g>
+  
+  <!-- Floating tech icons -->
+  <g transform="translate(50, 180)" opacity="0.6">
+    <circle cx="0" cy="0" r="15" fill="#6366f1" opacity="0.3"/>
+    <text x="-6" y="4" font-family="sans-serif" font-size="12" fill="#6366f1" font-weight="bold">JS</text>
+  </g>
+  
+  <g transform="translate(550, 180)" opacity="0.6">
+    <rect x="-12" y="-12" width="24" height="24" rx="4" fill="#8b5cf6" opacity="0.3"/>
+    <text x="-8" y="3" font-family="sans-serif" font-size="11" fill="#8b5cf6" font-weight="bold">API</text>
+  </g>
+  
+  <g transform="translate(80, 340)" opacity="0.6">
+    <polygon points="0,-10 10,8 -10,8" fill="#f59e0b" opacity="0.5"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff"/>
+  </g>
+  
+  <g transform="translate(520, 340)" opacity="0.6">
+    <circle cx="0" cy="0" r="12" fill="#6366f1" opacity="0.4"/>
+    <rect x="-6" y="-6" width="12" height="12" rx="2" fill="#ffffff"/>
+    <path d="M-3 -3 L3 3 M3 -3 L-3 3" stroke="#6366f1" stroke-width="1"/>
+  </g>
+  
+  <!-- Network lines -->
+  <g opacity="0.4">
+    <path d="M150 100 L300 50" stroke="#64748b" stroke-width="1"/>
+    <path d="M470 120 L340 70" stroke="#64748b" stroke-width="1"/>
+    <path d="M200 140 L150 100" stroke="#64748b" stroke-width="1"/>
+  </g>
+  
+  <!-- Code symbols -->
+  <text x="20" y="120" font-family="monospace" font-size="18" fill="#6366f1" opacity="0.6">&lt;/&gt;</text>
+  <text x="560" y="120" font-family="monospace" font-size="16" fill="#8b5cf6" opacity="0.6">{}</text>
+  <text x="250" y="380" font-family="monospace" font-size="14" fill="#f59e0b" opacity="0.6">npm</text>
+</svg>

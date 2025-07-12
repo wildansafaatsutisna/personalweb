@@ -1,0 +1,68 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="400" fill="#1a1a2e"/>
+  
+  <!-- Mechanical keyboard -->
+  <rect x="100" y="150" width="400" height="120" rx="10" fill="#2c2c54" stroke="#40407a" stroke-width="2"/>
+  
+  <!-- Key rows -->
+  <!-- Function keys row -->
+  <rect x="110" y="160" width="25" height="15" rx="2" fill="#40407a" stroke="#706fd3" stroke-width="1"/>
+  <text x="122" y="170" text-anchor="middle" fill="#f1f2f6" font-family="Arial" font-size="7">F1</text>
+  <rect x="140" y="160" width="25" height="15" rx="2" fill="#40407a" stroke="#706fd3" stroke-width="1"/>
+  <text x="152" y="170" text-anchor="middle" fill="#f1f2f6" font-family="Arial" font-size="7">F2</text>
+  <rect x="170" y="160" width="25" height="15" rx="2" fill="#40407a" stroke="#706fd3" stroke-width="1"/>
+  <text x="182" y="170" text-anchor="middle" fill="#f1f2f6" font-family="Arial" font-size="7">F3</text>
+  <rect x="200" y="160" width="25" height="15" rx="2" fill="#40407a" stroke="#706fd3" stroke-width="1"/>
+  <text x="212" y="170" text-anchor="middle" fill="#f1f2f6" font-family="Arial" font-size="7">F4</text>
+  
+  <!-- Number row -->
+  <rect x="110" y="180" width="20" height="20" rx="3" fill="#ff5722" stroke="#ff7043" stroke-width="1"/>
+  <text x="120" y="193" text-anchor="middle" fill="white" font-family="Arial" font-size="9">1</text>
+  <rect x="135" y="180" width="20" height="20" rx="3" fill="#ff5722" stroke="#ff7043" stroke-width="1"/>
+  <text x="145" y="193" text-anchor="middle" fill="white" font-family="Arial" font-size="9">2</text>
+  <rect x="160" y="180" width="20" height="20" rx="3" fill="#ff5722" stroke="#ff7043" stroke-width="1"/>
+  <text x="170" y="193" text-anchor="middle" fill="white" font-family="Arial" font-size="9">3</text>
+  <rect x="185" y="180" width="20" height="20" rx="3" fill="#ff5722" stroke="#ff7043" stroke-width="1"/>
+  <text x="195" y="193" text-anchor="middle" fill="white" font-family="Arial" font-size="9">4</text>
+  <rect x="210" y="180" width="20" height="20" rx="3" fill="#ff5722" stroke="#ff7043" stroke-width="1"/>
+  <text x="220" y="193" text-anchor="middle" fill="white" font-family="Arial" font-size="9">5</text>
+  
+  <!-- QWERTY row -->
+  <rect x="110" y="205" width="20" height="20" rx="3" fill="#4caf50" stroke="#66bb6a" stroke-width="1"/>
+  <text x="120" y="218" text-anchor="middle" fill="white" font-family="Arial" font-size="9">Q</text>
+  <rect x="135" y="205" width="20" height="20" rx="3" fill="#4caf50" stroke="#66bb6a" stroke-width="1"/>
+  <text x="145" y="218" text-anchor="middle" fill="white" font-family="Arial" font-size="9">W</text>
+  <rect x="160" y="205" width="20" height="20" rx="3" fill="#4caf50" stroke="#66bb6a" stroke-width="1"/>
+  <text x="170" y="218" text-anchor="middle" fill="white" font-family="Arial" font-size="9">E</text>
+  <rect x="185" y="205" width="20" height="20" rx="3" fill="#4caf50" stroke="#66bb6a" stroke-width="1"/>
+  <text x="195" y="218" text-anchor="middle" fill="white" font-family="Arial" font-size="9">R</text>
+  <rect x="210" y="205" width="20" height="20" rx="3" fill="#4caf50" stroke="#66bb6a" stroke-width="1"/>
+  <text x="220" y="218" text-anchor="middle" fill="white" font-family="Arial" font-size="9">T</text>
+  
+  <!-- Home row -->
+  <rect x="110" y="230" width="20" height="20" rx="3" fill="#2196f3" stroke="#42a5f5" stroke-width="1"/>
+  <text x="120" y="243" text-anchor="middle" fill="white" font-family="Arial" font-size="9">A</text>
+  <rect x="135" y="230" width="20" height="20" rx="3" fill="#2196f3" stroke="#42a5f5" stroke-width="1"/>
+  <text x="145" y="243" text-anchor="middle" fill="white" font-family="Arial" font-size="9">S</text>
+  <rect x="160" y="230" width="20" height="20" rx="3" fill="#2196f3" stroke="#42a5f5" stroke-width="1"/>
+  <text x="170" y="243" text-anchor="middle" fill="white" font-family="Arial" font-size="9">D</text>
+  <rect x="185" y="230" width="20" height="20" rx="3" fill="#2196f3" stroke="#42a5f5" stroke-width="1"/>
+  <text x="195" y="243" text-anchor="middle" fill="white" font-family="Arial" font-size="9">F</text>
+  
+  <!-- Spacebar -->
+  <rect x="150" y="255" width="80" height="10" rx="5" fill="#9c27b0" stroke="#ba68c8" stroke-width="1"/>
+  
+  <!-- LED indicators -->
+  <circle cx="450" cy="170" r="3" fill="#4caf50"/>
+  <circle cx="460" cy="170" r="3" fill="#ff5722"/>
+  <circle cx="470" cy="170" r="3" fill="#2196f3"/>
+  
+  <!-- Cables and connections -->
+  <rect x="480" y="200" width="8" height="40" rx="4" fill="#333"/>
+  <path d="M484 240 Q484 280 450 300" stroke="#555" stroke-width="3" fill="none"/>
+  
+  <!-- Background decorative elements -->
+  <circle cx="50" cy="80" r="30" fill="#ff5722" opacity="0.1"/>
+  <circle cx="550" cy="320" r="40" fill="#4caf50" opacity="0.1"/>
+  <rect x="20" y="350" width="120" height="4" rx="2" fill="#2196f3" opacity="0.3"/>
+</svg>
